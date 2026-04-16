@@ -1,0 +1,27 @@
+{
+  "session_id": "session-2026-04-16-1757",
+  "started": "2026-04-16T22:57:49.041Z",
+  "files_read": {
+    "c:/Code/ClaudeOKCPools": {
+      "count": 1,
+      "tokens": 0,
+      "first_read": "2026-04-16T23:11:35.827Z"
+    }
+  },
+  "files_written": [
+    {
+      "file": "c:/Code/ClaudeOKCPools/.gitignore",
+      "action": "create",
+      "tokens": 83,
+      "at": "2026-04-16T23:11:49.790Z"
+    }
+  ],
+  "edit_counts": {
+    ".gitignore": 1
+  },
+  "anatomy_hits": 0,
+  "anatomy_misses": 1,
+  "repeated_reads_warned": 0,
+  "cerebrum_warnings": 0,
+  "stop_count": 0
+}
