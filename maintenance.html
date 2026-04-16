@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pool Maintenance & Equipment Services | Atlantic Pools</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'navy': '#0a2540',
+            'navy-light': '#0d3875',
+            'blue': '#1565c0',
+            'blue-light': '#64b5f6',
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
+    .nav-link { transition: color 0.2s; }
+    .nav-link:hover { color: #64b5f6; }
+  </style>
+</head>
+<body class="bg-white">
+
+  <!-- Navigation -->
+  <nav class="sticky top-0 z-50 bg-navy text-white">
+    <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+      <a href="index.html" class="font-bold text-sm tracking-widest">ATLANTIC POOLS</a>
+      <div class="hidden md:flex gap-6 items-center">
+        <a href="index.html" class="nav-link text-sm">Home</a>
+        <a href="swimming-pools.html" class="nav-link text-sm">Swimming Pools</a>
+        <a href="spas.html" class="nav-link text-sm">Spas</a>
+        <a href="maintenance.html" class="nav-link text-sm">Maintenance</a>
+        <a href="contact.html" class="bg-blue hover:bg-blue-light px-4 py-2 rounded text-sm font-semibold transition">Contact</a>
+      </div>
+      <button id="hamburger" class="md:hidden flex flex-col gap-1 cursor-pointer">
+        <div class="w-6 h-0.5 bg-white"></div>
+        <div class="w-6 h-0.5 bg-white"></div>
+        <div class="w-6 h-0.5 bg-white"></div>
+      </button>
+    </div>
+    <div id="mobile-menu" class="hidden md:hidden bg-navy-light px-4 py-4 border-t border-blue-light border-opacity-20">
+      <a href="index.html" class="block py-2 text-sm hover:text-blue-light">Home</a>
+      <a href="swimming-pools.html" class="block py-2 text-sm hover:text-blue-light">Swimming Pools</a>
+      <a href="spas.html" class="block py-2 text-sm hover:text-blue-light">Spas</a>
+      <a href="maintenance.html" class="block py-2 text-sm hover:text-blue-light">Maintenance</a>
+      <a href="contact.html" class="block py-2 mt-2 bg-blue hover:bg-blue-light px-3 rounded text-sm font-semibold text-center">Contact</a>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Page Hero -->
+    <section class="bg-gradient-to-br from-navy to-navy-light text-white py-16 px-4">
+      <div class="max-w-4xl mx-auto text-center">
+        <h1 class="text-4xl md:text-5xl font-bold mb-4">Pool Maintenance & Equipment</h1>
+        <p class="text-lg text-blue-light">Professional Care & Repair Services</p>
+      </div>
+    </section>
+
+    <!-- Why Maintenance Matters -->
+    <section class="py-12 px-4 bg-blue-light bg-opacity-10">
+      <div class="max-w-4xl mx-auto">
+        <div class="bg-white rounded-lg p-8 border-l-4 border-blue">
+          <h2 class="text-2xl font-bold text-navy mb-4">Why Regular Maintenance Matters</h2>
+          <p class="text-gray-700 leading-relaxed">
+            Your swimming pool is a significant investment. Regular maintenance protects that investment by keeping water safe to swim in, extending equipment lifespan, preventing costly repairs, and ensuring your pool remains crystal clear year-round. Professional care catches small issues before they become expensive problems — saving you money and headaches in the long run.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Grid -->
+    <section class="py-16 px-4 bg-white">
+      <div class="max-w-5xl mx-auto">
+        <h2 class="text-3xl font-bold text-center text-navy mb-12">Our Maintenance Services</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          <!-- Service 1 -->
+          <div class="border border-gray-200 rounded-lg p-6 hover:shadow-lg transition">
+            <div class="text-4xl mb-3">🏊</div>
+            <h3 class="text-xl font-bold text-navy mb-2">Pool Cleaning & Vacuuming</h3>
+            <p class="text-gray-600 text-sm">Weekly, bi-weekly, or monthly cleaning. Includes skimming, brushing walls, and vacuuming the bottom to keep your pool pristine.</p>
+          </div>
+
+          <!-- Service 2 -->
+          <div class="border border-gray-200 rounded-lg p-6 hover:shadow-lg transition">
+            <div class="text-4xl mb-3">⚗️</div>
+            <h3 class="text-xl font-bold text-navy mb-2">Water Chemistry Balancing</h3>
+            <p class="text-gray-600 text-sm">Professional testing and chemical balancing. We maintain proper pH, alkalinity, chlorine, and calcium levels for safe, comfortable swimming.</p>
+          </div>
+
+          <!-- Service 3 -->
+          <div class="border border-gray-200 rounded-lg p-6 hover:shadow-lg transition">
+            <div class="text-4xl mb-3">🔄</div>
+            <h3 class="text-xl font-bold text-navy mb-2">Filter Cleaning & Backwashing</h3>
+            <p class="text-gray-600 text-sm">Regular filter maintenance extends equipment life and improves water clarity. We clean cartridge filters and perform backwashing as needed.</p>
+          </div>
+
+          <!-- Service 4 -->
+          <div class="border border-gray-200 rounded-lg p-6 hover:shadow-lg transition">
+            <div class="text-4xl mb-3">⚙️</div>
+            <h3 class="text-xl font-bold text-navy mb-2">Pump & Motor Repair</h3>
+            <p class="text-gray-600 text-sm">Diagnosing and repairing pump and motor issues. We handle leaks, performance problems, and equipment replacement if needed.</p>
+          </div>
+
+          <!-- Service 5 -->
+          <div class="border border-gray-200 rounded-lg p-6 hover:shadow-lg transition">
+            <div class="text-4xl mb-3">🔥</div>
+            <h3 class="text-xl font-bold text-navy mb-2">Heater Service & Repair</h3>
+            <p class="text-gray-600 text-sm">Gas and electric heater maintenance, troubleshooting, and repair. Keep your pool warm and comfortable year-round.</p>
+          </div>
+
+          <!-- Service 6 -->
+          <div class="border border-gray-200 rounded-lg p-6 hover:shadow-lg transition">
+            <div class="text-4xl mb-3">🧂</div>
+            <h3 class="text-xl font-bold text-navy mb-2">Salt System Maintenance</h3>
+            <p class="text-gray-600 text-sm">Salt chlorinator cell cleaning, calcium buildup removal, and system troubleshooting. Keep your salt system running efficiently.</p>
+          </div>
+
+          <!-- Service 7 -->
+          <div class="border border-gray-200 rounded-lg p-6 hover:shadow-lg transition">
+            <div class="text-4xl mb-3">❄️</div>
+            <h3 class="text-xl font-bold text-navy mb-2">Winterization & Pool Closing</h3>
+            <p class="text-gray-600 text-sm">Professional seasonal closing. We drain, clean, and protect your pool for winter with proper chemical treatment and equipment winterization.</p>
+          </div>
+
+          <!-- Service 8 -->
+          <div class="border border-gray-200 rounded-lg p-6 hover:shadow-lg transition">
+            <div class="text-4xl mb-3">🌱</div>
+            <h3 class="text-xl font-bold text-navy mb-2">Spring Opening</h3>
+            <p class="text-gray-600 text-sm">Get your pool ready for summer. We open, fill, clean, balance chemistry, and inspect all equipment for peak performance.</p>
+          </div>
+
+          <!-- Service 9 -->
+          <div class="border border-gray-200 rounded-lg p-6 hover:shadow-lg transition">
+            <div class="text-4xl mb-3">🔧</div>
+            <h3 class="text-xl font-bold text-navy mb-2">Equipment Replacement</h3>
+            <p class="text-gray-600 text-sm">Upgrade or replace worn-out pumps, filters, lights, controllers, and other components. We handle installation and startup.</p>
+          </div>
+
+          <!-- Service 10 -->
+          <div class="border border-gray-200 rounded-lg p-6 hover:shadow-lg transition">
+            <div class="text-4xl mb-3">🔍</div>
+            <h3 class="text-xl font-bold text-navy mb-2">Leak Detection & Repair</h3>
+            <p class="text-gray-600 text-sm">Detect water leaks in plumbing, liners, or equipment. We locate the problem and provide repair solutions to prevent water waste.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Maintenance Plans -->
+    <section class="py-16 px-4 bg-gray-50">
+      <div class="max-w-4xl mx-auto">
+        <h2 class="text-3xl font-bold text-center text-navy mb-12">Maintenance Plans</h2>
+        <div class="grid md:grid-cols-3 gap-6">
+          <!-- Weekly -->
+          <div class="bg-white border border-gray-200 rounded-lg p-6 text-center">
+            <h3 class="text-xl font-bold text-navy mb-2">Weekly Service</h3>
+            <p class="text-3xl font-bold text-blue mb-4">$65–$85</p>
+            <p class="text-gray-600 text-sm mb-4">Per visit</p>
+            <ul class="text-left text-sm text-gray-700 space-y-2 mb-6">
+              <li>✓ Cleaning & vacuuming</li>
+              <li>✓ Chemical testing</li>
+              <li>✓ Filter check</li>
+              <li>✓ Equipment inspection</li>
+            </ul>
+            <a href="contact.html" class="text-blue font-bold hover:text-blue-light transition">Schedule Now →</a>
+          </div>
+
+          <!-- Bi-Weekly -->
+          <div class="bg-white border border-blue rounded-lg p-6 text-center ring-2 ring-blue ring-opacity-50">
+            <div class="bg-blue text-white px-3 py-1 rounded text-xs font-bold inline-block mb-2">MOST POPULAR</div>
+            <h3 class="text-xl font-bold text-navy mb-2">Bi-Weekly Service</h3>
+            <p class="text-3xl font-bold text-blue mb-4">$45–$60</p>
+            <p class="text-gray-600 text-sm mb-4">Per visit</p>
+            <ul class="text-left text-sm text-gray-700 space-y-2 mb-6">
+              <li>✓ Cleaning & vacuuming</li>
+              <li>✓ Chemical balancing</li>
+              <li>✓ Filter maintenance</li>
+              <li>✓ Equipment inspection</li>
+            </ul>
+            <a href="contact.html" class="text-blue font-bold hover:text-blue-light transition">Schedule Now →</a>
+          </div>
+
+          <!-- Monthly -->
+          <div class="bg-white border border-gray-200 rounded-lg p-6 text-center">
+            <h3 class="text-xl font-bold text-navy mb-2">Monthly Check-up</h3>
+            <p class="text-3xl font-bold text-blue mb-4">$120–$160</p>
+            <p class="text-gray-600 text-sm mb-4">Per month</p>
+            <ul class="text-left text-sm text-gray-700 space-y-2 mb-6">
+              <li>✓ Full cleaning</li>
+              <li>✓ Chemistry testing</li>
+              <li>✓ Equipment check</li>
+              <li>✓ Detailed report</li>
+            </ul>
+            <a href="contact.html" class="text-blue font-bold hover:text-blue-light transition">Schedule Now →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="bg-navy text-white py-12 px-4">
+      <div class="max-w-4xl mx-auto text-center">
+        <p class="text-lg mb-6">Schedule maintenance or get a repair estimate today</p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <a href="contact.html" class="bg-blue hover:bg-blue-light text-white px-6 py-3 rounded font-bold transition">Request Service</a>
+          <a href="tel:+14052268180" class="border-2 border-blue-light hover:bg-blue-light text-white px-6 py-3 rounded font-bold transition">Call (405) 226-8180</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-navy text-white py-8 px-4">
+    <div class="max-w-6xl mx-auto">
+      <div class="grid md:grid-cols-3 gap-8 mb-6 text-center md:text-left">
+        <div class="text-sm text-opacity-70">© 2025 Atlantic Pools — Choctaw, OK</div>
+        <div class="flex justify-center gap-4 text-sm">
+          <a href="index.html" class="hover:text-blue-light">Home</a>
+          <a href="swimming-pools.html" class="hover:text-blue-light">Pools</a>
+          <a href="spas.html" class="hover:text-blue-light">Spas</a>
+          <a href="maintenance.html" class="hover:text-blue-light">Maintenance</a>
+          <a href="contact.html" class="hover:text-blue-light">Contact</a>
+        </div>
+        <div class="text-sm text-blue-light text-center md:text-right">(405) 226-8180</div>
+      </div>
+      <div class="border-t border-opacity-20 pt-4 text-center text-sm text-opacity-60">
+        Sales@OKCpools.com
+      </div>
+    </div>
+  </footer>
+
+  <!-- Hamburger Menu Toggle -->
+  <script>
+    const hamburger = document.getElementById('hamburger');
+    const menu = document.getElementById('mobile-menu');
+    hamburger.addEventListener('click', () => {
+      menu.classList.toggle('hidden');
+    });
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hot Tubs & Spas — Garden Leisure | Atlantic Pools</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'navy': '#0a2540',
+            'navy-light': '#0d3875',
+            'blue': '#1565c0',
+            'blue-light': '#64b5f6',
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
+    .nav-link { transition: color 0.2s; }
+    .nav-link:hover { color: #64b5f6; }
+  </style>
+</head>
+<body class="bg-white">
+
+  <!-- Navigation -->
+  <nav class="sticky top-0 z-50 bg-navy text-white">
+    <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+      <a href="index.html" class="font-bold text-sm tracking-widest">ATLANTIC POOLS</a>
+      <div class="hidden md:flex gap-6 items-center">
+        <a href="index.html" class="nav-link text-sm">Home</a>
+        <a href="swimming-pools.html" class="nav-link text-sm">Swimming Pools</a>
+        <a href="spas.html" class="nav-link text-sm">Spas</a>
+        <a href="maintenance.html" class="nav-link text-sm">Maintenance</a>
+        <a href="contact.html" class="bg-blue hover:bg-blue-light px-4 py-2 rounded text-sm font-semibold transition">Contact</a>
+      </div>
+      <button id="hamburger" class="md:hidden flex flex-col gap-1 cursor-pointer">
+        <div class="w-6 h-0.5 bg-white"></div>
+        <div class="w-6 h-0.5 bg-white"></div>
+        <div class="w-6 h-0.5 bg-white"></div>
+      </button>
+    </div>
+    <div id="mobile-menu" class="hidden md:hidden bg-navy-light px-4 py-4 border-t border-blue-light border-opacity-20">
+      <a href="index.html" class="block py-2 text-sm hover:text-blue-light">Home</a>
+      <a href="swimming-pools.html" class="block py-2 text-sm hover:text-blue-light">Swimming Pools</a>
+      <a href="spas.html" class="block py-2 text-sm hover:text-blue-light">Spas</a>
+      <a href="maintenance.html" class="block py-2 text-sm hover:text-blue-light">Maintenance</a>
+      <a href="contact.html" class="block py-2 mt-2 bg-blue hover:bg-blue-light px-3 rounded text-sm font-semibold text-center">Contact</a>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Page Hero -->
+    <section class="bg-gradient-to-br from-navy to-navy-light text-white py-16 px-4">
+      <div class="max-w-4xl mx-auto text-center">
+        <h1 class="text-4xl md:text-5xl font-bold mb-4">Spas & Hot Tubs</h1>
+        <p class="text-lg text-blue-light">Garden Leisure Premium Models for Relaxation & Wellness</p>
+      </div>
+    </section>
+
+    <!-- Spa Models Grid -->
+    <section class="py-16 px-4 bg-white">
+      <div class="max-w-5xl mx-auto">
+        <h2 class="text-3xl font-bold text-center text-navy mb-12">Our Spa Collection</h2>
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <!-- Daisy -->
+          <div class="border border-gray-200 rounded-lg overflow-hidden hover:shadow-lg transition">
+            <div class="bg-navy-light p-6 text-white">
+              <h3 class="text-xl font-bold mb-3">Daisy</h3>
+              <div class="text-sm space-y-1 text-blue-light">
+                <p>✓ 2-3 person capacity</p>
+                <p>✓ 8 therapeutic jets</p>
+                <p>✓ Acrylic shell</p>
+                <p>✓ Easy maintenance</p>
+              </div>
+            </div>
+            <div class="p-6">
+              <p class="text-gray-600 text-sm mb-4">Compact, affordable spa perfect for couples or small spaces. Classic design with essential comfort features.</p>
+              <a href="contact.html" class="text-blue font-bold hover:text-blue-light transition">Contact for Pricing →</a>
+            </div>
+          </div>
+
+          <!-- Azalea -->
+          <div class="border border-gray-200 rounded-lg overflow-hidden hover:shadow-lg transition">
+            <div class="bg-navy-light p-6 text-white">
+              <h3 class="text-xl font-bold mb-3">Azalea</h3>
+              <div class="text-sm space-y-1 text-blue-light">
+                <p>✓ 4-5 person capacity</p>
+                <p>✓ 12 jets (body & feet)</p>
+                <p>✓ Acrylic shell</p>
+                <p>✓ Built-in seating</p>
+              </div>
+            </div>
+            <div class="p-6">
+              <p class="text-gray-600 text-sm mb-4">Mid-size family spa with excellent jet configuration. Comfortable seating for groups or family gatherings.</p>
+              <a href="contact.html" class="text-blue font-bold hover:text-blue-light transition">Contact for Pricing →</a>
+            </div>
+          </div>
+
+          <!-- Desert Rose -->
+          <div class="border border-gray-200 rounded-lg overflow-hidden hover:shadow-lg transition">
+            <div class="bg-navy-light p-6 text-white">
+              <h3 class="text-xl font-bold mb-3">Desert Rose</h3>
+              <div class="text-sm space-y-1 text-blue-light">
+                <p>✓ 5-6 person capacity</p>
+                <p>✓ 15 jets</p>
+                <p>✓ Acrylic shell</p>
+                <p>✓ Lounger & seating</p>
+              </div>
+            </div>
+            <div class="p-6">
+              <p class="text-gray-600 text-sm mb-4">Popular choice with premium seating. Lounger position perfect for full-body relaxation and therapy.</p>
+              <a href="contact.html" class="text-blue font-bold hover:text-blue-light transition">Contact for Pricing →</a>
+            </div>
+          </div>
+
+          <!-- Camellia -->
+          <div class="border border-gray-200 rounded-lg overflow-hidden hover:shadow-lg transition">
+            <div class="bg-navy-light p-6 text-white">
+              <h3 class="text-xl font-bold mb-3">Camellia</h3>
+              <div class="text-sm space-y-1 text-blue-light">
+                <p>✓ 6-7 person capacity</p>
+                <p>✓ 18 jets</p>
+                <p>✓ Acrylic shell</p>
+                <p>✓ Premium insulation</p>
+              </div>
+            </div>
+            <div class="p-6">
+              <p class="text-gray-600 text-sm mb-4">Spacious spa with premium comfort features. Enhanced insulation keeps water warmer, reduces energy costs.</p>
+              <a href="contact.html" class="text-blue font-bold hover:text-blue-light transition">Contact for Pricing →</a>
+            </div>
+          </div>
+
+          <!-- Desert Rose Platinum -->
+          <div class="border border-gray-200 rounded-lg overflow-hidden hover:shadow-lg transition">
+            <div class="bg-blue p-6 text-white">
+              <div class="bg-blue-light text-navy px-2 py-1 rounded text-xs font-bold inline-block mb-2">PLATINUM</div>
+              <h3 class="text-xl font-bold mb-3">Desert Rose Platinum</h3>
+              <div class="text-sm space-y-1">
+                <p>✓ 5-6 person capacity</p>
+                <p>✓ 18 premium jets</p>
+                <p>✓ LED lighting system</p>
+                <p>✓ Sound system ready</p>
+              </div>
+            </div>
+            <div class="p-6">
+              <p class="text-gray-600 text-sm mb-4">Luxury upgrade of the Desert Rose. Includes LED mood lighting and audio capability for the ultimate spa experience.</p>
+              <a href="contact.html" class="text-blue font-bold hover:text-blue-light transition">Contact for Pricing →</a>
+            </div>
+          </div>
+
+          <!-- Jasmine Platinum -->
+          <div class="border border-gray-200 rounded-lg overflow-hidden hover:shadow-lg transition">
+            <div class="bg-blue p-6 text-white">
+              <div class="bg-blue-light text-navy px-2 py-1 rounded text-xs font-bold inline-block mb-2">PLATINUM</div>
+              <h3 class="text-xl font-bold mb-3">Jasmine Platinum</h3>
+              <div class="text-sm space-y-1">
+                <p>✓ 7-8 person capacity</p>
+                <p>✓ 22 premium jets</p>
+                <p>✓ LED + sound system</p>
+                <p>✓ Waterfall feature</p>
+              </div>
+            </div>
+            <div class="p-6">
+              <p class="text-gray-600 text-sm mb-4">Flagship luxury model. Full entertainment package with waterfall accent, premium jets, and complete multimedia integration.</p>
+              <a href="contact.html" class="text-blue font-bold hover:text-blue-light transition">Contact for Pricing →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Highlight Strip -->
+    <section class="bg-gray-50 py-12 px-4 border-y border-gray-200">
+      <div class="max-w-5xl mx-auto">
+        <h3 class="text-2xl font-bold text-navy text-center mb-8">Why Choose Garden Leisure?</h3>
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6 text-center">
+          <div>
+            <div class="text-3xl mb-2">🚚</div>
+            <p class="font-bold text-navy mb-1">Free Shipping</p>
+            <p class="text-sm text-gray-600">Included on all spa purchases</p>
+          </div>
+          <div>
+            <div class="text-3xl mb-2">🎨</div>
+            <p class="font-bold text-navy mb-1">50+ Color Options</p>
+            <p class="text-sm text-gray-600">Customize to match your décor</p>
+          </div>
+          <div>
+            <div class="text-3xl mb-2">✓</div>
+            <p class="font-bold text-navy mb-1">Industry Warranty</p>
+            <p class="text-sm text-gray-600">3-5 years on shell & components</p>
+          </div>
+          <div>
+            <div class="text-3xl mb-2">♨️</div>
+            <p class="font-bold text-navy mb-1">Acrylic Construction</p>
+            <p class="text-sm text-gray-600">Durable, UV-resistant material</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Health Benefits Section -->
+    <section class="py-16 px-4 bg-white">
+      <div class="max-w-4xl mx-auto">
+        <h2 class="text-3xl font-bold text-center text-navy mb-8">Spa Ownership Benefits</h2>
+        <div class="grid md:grid-cols-2 gap-8">
+          <div>
+            <h3 class="text-lg font-bold text-navy mb-4">Health & Wellness</h3>
+            <ul class="text-gray-700 text-sm space-y-2">
+              <li>• Hot water therapy relieves muscle tension</li>
+              <li>• Hydrotherapy aids in injury recovery</li>
+              <li>• Improves circulation and flexibility</li>
+              <li>• Reduces stress and promotes better sleep</li>
+              <li>• Low-impact exercise for all ages</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-lg font-bold text-navy mb-4">Lifestyle & Home Value</h3>
+            <ul class="text-gray-700 text-sm space-y-2">
+              <li>• Year-round outdoor entertainment</li>
+              <li>• Perfect for family bonding & gatherings</li>
+              <li>• Increases property appeal & resale value</li>
+              <li>• Creates a personal wellness retreat</li>
+              <li>• Durable investment lasting 15+ years</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="bg-navy text-white py-12 px-4">
+      <div class="max-w-4xl mx-auto text-center">
+        <p class="text-lg mb-6">Ready to add luxury to your backyard?</p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <a href="contact.html" class="bg-blue hover:bg-blue-light text-white px-6 py-3 rounded font-bold transition">Get a Free Consultation</a>
+          <a href="tel:+14052268180" class="border-2 border-blue-light hover:bg-blue-light text-white px-6 py-3 rounded font-bold transition">Call (405) 226-8180</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-navy text-white py-8 px-4">
+    <div class="max-w-6xl mx-auto">
+      <div class="grid md:grid-cols-3 gap-8 mb-6 text-center md:text-left">
+        <div class="text-sm text-opacity-70">© 2025 Atlantic Pools — Choctaw, OK</div>
+        <div class="flex justify-center gap-4 text-sm">
+          <a href="index.html" class="hover:text-blue-light">Home</a>
+          <a href="swimming-pools.html" class="hover:text-blue-light">Pools</a>
+          <a href="spas.html" class="hover:text-blue-light">Spas</a>
+          <a href="maintenance.html" class="hover:text-blue-light">Maintenance</a>
+          <a href="contact.html" class="hover:text-blue-light">Contact</a>
+        </div>
+        <div class="text-sm text-blue-light text-center md:text-right">(405) 226-8180</div>
+      </div>
+      <div class="border-t border-opacity-20 pt-4 text-center text-sm text-opacity-60">
+        Sales@OKCpools.com
+      </div>
+    </div>
+  </footer>
+
+  <!-- Hamburger Menu Toggle -->
+  <script>
+    const hamburger = document.getElementById('hamburger');
+    const menu = document.getElementById('mobile-menu');
+    hamburger.addEventListener('click', () => {
+      menu.classList.toggle('hidden');
+    });
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Atlantic Pools — Swimming Pools & Spas in Oklahoma City</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'navy': '#0a2540',
+            'navy-light': '#0d3875',
+            'blue': '#1565c0',
+            'blue-light': '#64b5f6',
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
+    .nav-link { transition: color 0.2s; }
+    .nav-link:hover { color: #64b5f6; }
+  </style>
+</head>
+<body class="bg-white">
+
+  <!-- Navigation -->
+  <nav class="sticky top-0 z-50 bg-navy text-white">
+    <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+      <!-- Logo -->
+      <a href="index.html" class="font-bold text-sm tracking-widest">ATLANTIC POOLS</a>
+
+      <!-- Desktop Nav -->
+      <div class="hidden md:flex gap-6 items-center">
+        <a href="index.html" class="nav-link text-sm">Home</a>
+        <a href="swimming-pools.html" class="nav-link text-sm">Swimming Pools</a>
+        <a href="spas.html" class="nav-link text-sm">Spas</a>
+        <a href="maintenance.html" class="nav-link text-sm">Maintenance</a>
+        <a href="contact.html" class="bg-blue hover:bg-blue-light px-4 py-2 rounded text-sm font-semibold transition">Contact</a>
+      </div>
+
+      <!-- Mobile Hamburger -->
+      <button id="hamburger" class="md:hidden flex flex-col gap-1 cursor-pointer">
+        <div class="w-6 h-0.5 bg-white"></div>
+        <div class="w-6 h-0.5 bg-white"></div>
+        <div class="w-6 h-0.5 bg-white"></div>
+      </button>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="hidden md:hidden bg-navy-light px-4 py-4 border-t border-blue-light border-opacity-20">
+      <a href="index.html" class="block py-2 text-sm hover:text-blue-light">Home</a>
+      <a href="swimming-pools.html" class="block py-2 text-sm hover:text-blue-light">Swimming Pools</a>
+      <a href="spas.html" class="block py-2 text-sm hover:text-blue-light">Spas</a>
+      <a href="maintenance.html" class="block py-2 text-sm hover:text-blue-light">Maintenance</a>
+      <a href="contact.html" class="block py-2 mt-2 bg-blue hover:bg-blue-light px-3 rounded text-sm font-semibold text-center">Contact</a>
+    </div>
+  </nav>
+
+  <!-- Page Content (varies per page) -->
+  <main>
+    <!-- HOME PAGE CONTENT -->
+
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-br from-navy to-navy-light text-white py-20 px-4">
+      <div class="max-w-4xl mx-auto text-center">
+        <p class="text-xs tracking-widest uppercase mb-4 text-opacity-70">Oklahoma City's Pool Experts — 30+ Years</p>
+        <h1 class="text-4xl md:text-5xl font-bold mb-4">Build Your Dream Pool</h1>
+        <p class="text-blue-light text-3xl font-bold mb-6">Starting at $30,500</p>
+        <p class="text-lg text-opacity-80 mb-8">Custom gunite, fiberglass & vinyl pools. Serving OKC and 200 miles beyond.</p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <a href="contact.html" class="bg-blue hover:bg-blue-light text-white px-6 py-3 rounded font-bold transition">Get a Free Quote</a>
+          <a href="swimming-pools.html" class="border-2 border-white hover:border-blue-light text-white px-6 py-3 rounded font-bold transition">View Pools →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Trust Bar -->
+    <section class="bg-gray-100 py-12 px-4 border-b border-gray-200">
+      <div class="max-w-4xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+        <div>
+          <div class="text-3xl font-bold text-navy">30+</div>
+          <p class="text-xs uppercase tracking-widest text-gray-600">Years Experience</p>
+        </div>
+        <div>
+          <div class="text-3xl font-bold text-navy">BBB</div>
+          <p class="text-xs uppercase tracking-widest text-gray-600">Accredited</p>
+        </div>
+        <div>
+          <div class="text-3xl font-bold text-navy">200mi</div>
+          <p class="text-xs uppercase tracking-widest text-gray-600">Service Radius</p>
+        </div>
+        <div>
+          <div class="text-3xl font-bold text-navy">Free</div>
+          <p class="text-xs uppercase tracking-widest text-gray-600">Quotes</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Cards -->
+    <section class="py-16 px-4 bg-white">
+      <div class="max-w-4xl mx-auto">
+        <h2 class="text-3xl font-bold text-center text-navy mb-2">What We Build & Service</h2>
+        <p class="text-center text-gray-600 mb-12">Click any service to learn more</p>
+
+        <div class="grid md:grid-cols-3 gap-6">
+          <!-- Swimming Pools Card -->
+          <a href="swimming-pools.html" class="border border-gray-200 rounded-lg overflow-hidden hover:shadow-lg transition">
+            <div class="bg-navy-light h-24 flex items-center justify-center text-4xl">🏊</div>
+            <div class="p-6 text-center">
+              <h3 class="font-bold text-lg text-navy mb-2">Swimming Pools</h3>
+              <p class="text-gray-600 text-sm">Gunite, Fiberglass & Vinyl</p>
+            </div>
+          </a>
+
+          <!-- Spas Card -->
+          <a href="spas.html" class="border border-gray-200 rounded-lg overflow-hidden hover:shadow-lg transition">
+            <div class="bg-navy-light h-24 flex items-center justify-center text-4xl">♨️</div>
+            <div class="p-6 text-center">
+              <h3 class="font-bold text-lg text-navy mb-2">Spas & Hot Tubs</h3>
+              <p class="text-gray-600 text-sm">Garden Leisure Brand</p>
+            </div>
+          </a>
+
+          <!-- Maintenance Card -->
+          <a href="maintenance.html" class="border border-gray-200 rounded-lg overflow-hidden hover:shadow-lg transition">
+            <div class="bg-navy-light h-24 flex items-center justify-center text-4xl">🔧</div>
+            <div class="p-6 text-center">
+              <h3 class="font-bold text-lg text-navy mb-2">Maintenance</h3>
+              <p class="text-gray-600 text-sm">Cleaning, Repair & More</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bottom CTA Strip -->
+    <section class="bg-navy text-white py-12 px-4">
+      <div class="max-w-4xl mx-auto text-center">
+        <p class="text-lg mb-6">Ready to get started? Call or text Duane today.</p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <a href="tel:+14052268180" class="bg-blue hover:bg-blue-light text-white px-6 py-3 rounded font-bold transition">Call (405) 226-8180</a>
+          <a href="contact.html" class="border-2 border-blue-light hover:bg-blue-light text-white px-6 py-3 rounded font-bold transition">Send a Message →</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-navy text-white py-8 px-4">
+    <div class="max-w-6xl mx-auto">
+      <div class="grid md:grid-cols-3 gap-8 mb-6 text-center md:text-left">
+        <div class="text-sm text-opacity-70">© 2025 Atlantic Pools — Choctaw, OK</div>
+        <div class="flex justify-center gap-4 text-sm">
+          <a href="index.html" class="hover:text-blue-light">Home</a>
+          <a href="swimming-pools.html" class="hover:text-blue-light">Pools</a>
+          <a href="spas.html" class="hover:text-blue-light">Spas</a>
+          <a href="maintenance.html" class="hover:text-blue-light">Maintenance</a>
+          <a href="contact.html" class="hover:text-blue-light">Contact</a>
+        </div>
+        <div class="text-sm text-blue-light text-center md:text-right">(405) 226-8180</div>
+      </div>
+      <div class="border-t border-opacity-20 pt-4 text-center text-sm text-opacity-60">
+        Sales@OKCpools.com
+      </div>
+    </div>
+  </footer>
+
+  <!-- Hamburger Menu Toggle -->
+  <script>
+    const hamburger = document.getElementById('hamburger');
+    const menu = document.getElementById('mobile-menu');
+    hamburger.addEventListener('click', () => {
+      menu.classList.toggle('hidden');
+    });
+  </script>
+
+</body>
+</html>
