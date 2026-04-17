@@ -3,6 +3,9 @@
 > Chronological action log. Hooks and AI append to this file automatically.
 > Old sessions are consolidated by the daemon weekly.
 
+| 12:00 | Downloaded 12 pool shape GIFs from okcpools.com | images/pools/*.gif | success | ~500 |
+| 12:01 | Rewrote swimming-pools.html with accurate content from okcpools.com | swimming-pools.html | success | ~4200 |
+
 ## Session: 2026-04-16 17:57
 
 | Time | Action | File(s) | Outcome | ~Tokens |
@@ -145,3 +148,10 @@
 | 20:19 | Edited maintenance.html | "fas fa-check-circle text-" → "fas fa-check-circle text-" | ~14 |
 | 20:19 | Edited contact.html | 7→7 lines | ~129 |
 | 20:19 | designqc: captured 6 screenshots (243KB, ~15000 tok) | / | ready for eval | ~0 |
+| 20:20 | Session end: 11 writes across 5 files (index.html, swimming-pools.html, spas.html, maintenance.html, contact.html) | 13 reads | ~23697 tok |
+
+## Session: 2026-04-17 20:22
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 20:31 | Created swimming-pools.html | — | ~5717 |

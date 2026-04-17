@@ -42,6 +42,9 @@
     table th, table td { padding: 12px; text-align: left; border-bottom: 1px solid #e0e0e0; }
     table th { background: #f8f9fa; font-weight: 700; color: #0a2540; font-family: 'Merriweather', Georgia, serif; }
     table tr:hover { background: #f8f9fa; }
+    .shape-card { background: white; border: 1px solid #e5e7eb; border-radius: 8px; padding: 16px; text-align: center; transition: all 0.3s ease; }
+    .shape-card:hover { transform: translateY(-3px); box-shadow: 0 10px 20px rgba(10,37,64,0.1); }
+    .shape-card img { max-height: 100px; width: auto; margin: 0 auto 12px; display: block; }
   </style>
 </head>
 <body class="bg-white">
@@ -88,15 +91,16 @@
     <!-- Page Hero -->
     <section class="bg-gradient-to-br from-navy to-navy-light text-white py-20 px-4">
       <div class="max-w-4xl mx-auto text-center">
-        <h1 class="font-serif text-5xl md:text-6xl font-bold mb-4">Swimming Pools</h1>
-        <p class="text-lg text-gold-light font-medium">Custom Gunite, Fiberglass & Vinyl In-Ground Pools</p>
+        <h1 class="font-serif text-5xl md:text-6xl font-bold mb-6">Beautiful Swimming Pools</h1>
+        <p class="text-lg text-gold-light font-medium max-w-3xl mx-auto">Whether your dream is to lounge poolside on a lazy Saturday afternoon, play a game of water volleyball with the kids, or entertain friends at a summer evening party, your dream pool is just a short time away.</p>
       </div>
     </section>
 
     <!-- Pool Types Section -->
     <section class="py-20 px-4 bg-white">
       <div class="max-w-4xl mx-auto">
-        <h2 class="font-serif text-4xl font-bold text-center text-navy mb-14">Pool Construction Types</h2>
+        <h2 class="font-serif text-4xl font-bold text-center text-navy mb-4">Pool Construction Types</h2>
+        <p class="text-center text-gray-600 mb-14 max-w-2xl mx-auto">We offer three types of in-ground pools to suit every budget, timeline, and design vision.</p>
         <div class="grid md:grid-cols-3 gap-8">
           <!-- Gunite -->
           <div class="card border border-gray-200 rounded-lg p-8 shadow">
@@ -108,7 +112,7 @@
               <li><i class="fas fa-check-circle text-gold mr-3"></i>20+ year lifespan</li>
               <li><i class="fas fa-check-circle text-gold mr-3"></i>Best for unique designs</li>
             </ul>
-            <p class="text-gold font-bold mt-6 text-lg">Starting at $30,500</p>
+            <p class="text-gray-500 text-sm mt-6 italic">Call for quote</p>
           </div>
 
           <!-- Fiberglass -->
@@ -116,12 +120,12 @@
             <h3 class="font-serif text-2xl font-bold text-navy mb-6">Fiberglass Pools</h3>
             <ul class="text-gray-700 text-sm space-y-3">
               <li><i class="fas fa-check-circle text-gold mr-3"></i>Pre-manufactured shells</li>
-              <li><i class="fas fa-check-circle text-gold mr-3"></i>Quick installation (3-6 weeks)</li>
+              <li><i class="fas fa-check-circle text-gold mr-3"></i>Quick installation</li>
               <li><i class="fas fa-check-circle text-gold mr-3"></i>Smooth gel-coat finish</li>
               <li><i class="fas fa-check-circle text-gold mr-3"></i>Lower maintenance costs</li>
               <li><i class="fas fa-check-circle text-gold mr-3"></i>25+ year lifespan</li>
             </ul>
-            <p class="text-gold font-bold mt-6 text-lg">Starting at $28,000</p>
+            <p class="text-gray-500 text-sm mt-6 italic">Call for quote</p>
           </div>
 
           <!-- Vinyl -->
@@ -129,65 +133,153 @@
             <h3 class="font-serif text-2xl font-bold text-navy mb-6">Vinyl In-Ground Pools</h3>
             <ul class="text-gray-700 text-sm space-y-3">
               <li><i class="fas fa-check-circle text-gold mr-3"></i>Most affordable option</li>
-              <li><i class="fas fa-check-circle text-gold mr-3"></i>Wide range of designs</li>
-              <li><i class="fas fa-check-circle text-gold mr-3"></i>Soft, comfortable surface</li>
-              <li><i class="fas fa-check-circle text-gold mr-3"></i>7-10 year liner lifespan</li>
-              <li><i class="fas fa-check-circle text-gold mr-3"></i>Easy maintenance</li>
+              <li><i class="fas fa-check-circle text-gold mr-3"></i>Wide range of shapes</li>
+              <li><i class="fas fa-check-circle text-gold mr-3"></i>Smooth, comfortable surface</li>
+              <li><i class="fas fa-check-circle text-gold mr-3"></i>25-year liner warranty</li>
+              <li><i class="fas fa-check-circle text-gold mr-3"></i>14-gauge steel walls</li>
             </ul>
-            <p class="text-gold font-bold mt-6 text-lg">Starting at $18,500</p>
+            <p class="text-gold font-bold mt-6 text-lg">Starting at $35,500</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pool Shapes Section -->
+    <section class="py-20 px-4 bg-gray-50">
+      <div class="max-w-5xl mx-auto">
+        <h2 class="font-serif text-4xl font-bold text-center text-navy mb-4">Available Pool Shapes</h2>
+        <p class="text-center text-gray-600 mb-14">Choose from 12 classic shapes for your vinyl in-ground pool</p>
+        <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
+          <div class="shape-card">
+            <img src="images/pools/rectangle2.gif" alt="Rectangle Pool">
+            <p class="font-serif font-bold text-navy text-sm">Rectangle</p>
+          </div>
+          <div class="shape-card">
+            <img src="images/pools/th_grecian.gif" alt="Grecian Rectangle Pool">
+            <p class="font-serif font-bold text-navy text-sm">Grecian Rectangle</p>
+          </div>
+          <div class="shape-card">
+            <img src="images/pools/ovalp2.gif" alt="Oval Pool">
+            <p class="font-serif font-bold text-navy text-sm">Oval</p>
+          </div>
+          <div class="shape-card">
+            <img src="images/pools/truelp2.gif" alt="True L Pool">
+            <p class="font-serif font-bold text-navy text-sm">True L</p>
+          </div>
+          <div class="shape-card">
+            <img src="images/pools/truelp-grecian2.gif" alt="Grecian True L Pool">
+            <p class="font-serif font-bold text-navy text-sm">Grecian True L</p>
+          </div>
+          <div class="shape-card">
+            <img src="images/pools/Lazylpp2.gif" alt="Grecian Lazy L Pool">
+            <p class="font-serif font-bold text-navy text-sm">Grecian Lazy L</p>
+          </div>
+          <div class="shape-card">
+            <img src="images/pools/Teep2.gif" alt="Tee Pool">
+            <p class="font-serif font-bold text-navy text-sm">Tee</p>
+          </div>
+          <div class="shape-card">
+            <img src="images/pools/kidney-swp.gif" alt="Kidney Straight Wall Pool">
+            <p class="font-serif font-bold text-navy text-sm">Kidney (Straight Wall)</p>
+          </div>
+          <div class="shape-card">
+            <img src="images/pools/kidneyp.gif" alt="Kidney Curved Wall Pool">
+            <p class="font-serif font-bold text-navy text-sm">Kidney (Curved Wall)</p>
+          </div>
+          <div class="shape-card">
+            <img src="images/pools/figure8-2.gif" alt="Figure 8 Pool">
+            <p class="font-serif font-bold text-navy text-sm">Figure 8</p>
+          </div>
+          <div class="shape-card">
+            <img src="images/pools/lappicpool2.gif" alt="40 Foot Lap Pool">
+            <p class="font-serif font-bold text-navy text-sm">40' Lap Pool</p>
+          </div>
+          <div class="shape-card">
+            <img src="images/pools/romandp.gif" alt="Double Roman Pool">
+            <p class="font-serif font-bold text-navy text-sm">Double Roman</p>
           </div>
         </div>
       </div>
     </section>
 
     <!-- Pricing Table -->
-    <section class="py-20 px-4 bg-gray-50">
+    <section class="py-20 px-4 bg-white">
       <div class="max-w-5xl mx-auto">
         <h2 class="font-serif text-4xl font-bold text-center text-navy mb-3">Vinyl Pool Pricing</h2>
-        <p class="text-center text-gray-600 mb-10 text-sm font-medium">Popular vinyl pool styles and sizes (pricing includes standard package)</p>
+        <p class="text-center text-gray-600 mb-10 text-sm font-medium">All prices include standard package (see below for what's included)</p>
         <div class="overflow-x-auto">
-          <table class="bg-white rounded-lg shadow">
+          <table class="bg-white rounded-lg shadow border border-gray-100">
             <thead>
               <tr>
-                <th>Pool Style</th>
                 <th>Size</th>
+                <th>Style</th>
                 <th>Price</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td class="font-semibold text-navy">Standard Rectangle</td>
-                <td>12×24</td>
+                <td>12' x 24'</td>
+                <td class="font-semibold text-navy">Rectangle</td>
                 <td class="text-gold font-bold">$35,500</td>
               </tr>
               <tr>
-                <td class="font-semibold text-navy">Standard Rectangle</td>
-                <td>16×32</td>
-                <td class="text-gold font-bold">$39,000</td>
+                <td>14' x 28'</td>
+                <td class="font-semibold text-navy">Rectangle</td>
+                <td class="text-gold font-bold">$38,000</td>
               </tr>
               <tr>
-                <td class="font-semibold text-navy">Standard Rectangle</td>
-                <td>20×40</td>
-                <td class="text-gold font-bold">$46,000</td>
-              </tr>
-              <tr>
-                <td class="font-semibold text-navy">Grecian Rectangle</td>
-                <td>12×24</td>
-                <td class="text-gold font-bold">$35,500</td>
-              </tr>
-              <tr>
-                <td class="font-semibold text-navy">Grecian Rectangle</td>
-                <td>20×40</td>
-                <td class="text-gold font-bold">$46,500</td>
-              </tr>
-              <tr>
-                <td class="font-semibold text-navy">Oval</td>
-                <td>15×25</td>
+                <td>16' x 32'</td>
+                <td class="font-semibold text-navy">Rectangle</td>
                 <td class="text-gold font-bold">$40,000</td>
               </tr>
               <tr>
+                <td>18' x 36'</td>
+                <td class="font-semibold text-navy">Rectangle</td>
+                <td class="text-gold font-bold">$43,000</td>
+              </tr>
+              <tr>
+                <td>20' x 40'</td>
+                <td class="font-semibold text-navy">Rectangle</td>
+                <td class="text-gold font-bold">$46,000</td>
+              </tr>
+              <tr>
+                <td>12' x 24'</td>
+                <td class="font-semibold text-navy">Grecian</td>
+                <td class="text-gold font-bold">$35,500</td>
+              </tr>
+              <tr>
+                <td>14' x 28'</td>
+                <td class="font-semibold text-navy">Grecian</td>
+                <td class="text-gold font-bold">$38,500</td>
+              </tr>
+              <tr>
+                <td>16' x 32'</td>
+                <td class="font-semibold text-navy">Grecian</td>
+                <td class="text-gold font-bold">$40,500</td>
+              </tr>
+              <tr>
+                <td>18' x 36'</td>
+                <td class="font-semibold text-navy">Grecian</td>
+                <td class="text-gold font-bold">$43,500</td>
+              </tr>
+              <tr>
+                <td>20' x 40'</td>
+                <td class="font-semibold text-navy">Grecian</td>
+                <td class="text-gold font-bold">$46,500</td>
+              </tr>
+              <tr>
+                <td>16' x 32'</td>
                 <td class="font-semibold text-navy">Oval</td>
-                <td>18×36</td>
+                <td class="text-gold font-bold">$40,000</td>
+              </tr>
+              <tr>
+                <td>18' x 36'</td>
+                <td class="font-semibold text-navy">Oval</td>
+                <td class="text-gold font-bold">$43,000</td>
+              </tr>
+              <tr>
+                <td>18' x 42'</td>
+                <td class="font-semibold text-navy">Oval</td>
                 <td class="text-gold font-bold">$45,500</td>
               </tr>
             </tbody>
@@ -198,30 +290,31 @@
     </section>
 
     <!-- Package Inclusions -->
-    <section class="py-20 px-4 bg-white">
+    <section class="py-20 px-4 bg-gray-50">
       <div class="max-w-4xl mx-auto">
-        <h2 class="font-serif text-4xl font-bold text-center text-navy mb-14">What's Included in Your Pool Package</h2>
+        <h2 class="font-serif text-4xl font-bold text-center text-navy mb-4">What's Included in Your Pool Package</h2>
+        <p class="text-center text-gray-600 mb-14">Every vinyl pool package comes complete — no hidden add-ons for the essentials.</p>
         <div class="grid md:grid-cols-2 gap-10">
           <div>
             <h3 class="font-serif font-bold text-lg text-navy mb-6">Structure & Installation</h3>
             <ul class="text-gray-700 text-sm space-y-2">
-              <li>✓ Vinyl liner (choose from 50+ patterns)</li>
-              <li>✓ Pool walls & frame</li>
-              <li>✓ Steel or composite steps</li>
-              <li>✓ LED underwater lighting</li>
-              <li>✓ Pentair filter system</li>
-              <li>✓ Automatic chlorinator</li>
+              <li><i class="fas fa-check text-gold mr-2"></i>Vinyl liner with 25-year warranty (50+ patterns)</li>
+              <li><i class="fas fa-check text-gold mr-2"></i>14-gauge steel pool walls &amp; frame</li>
+              <li><i class="fas fa-check text-gold mr-2"></i>Steel or composite steps</li>
+              <li><i class="fas fa-check text-gold mr-2"></i>Low-voltage underwater lighting</li>
+              <li><i class="fas fa-check text-gold mr-2"></i>Pentair filtration system</li>
+              <li><i class="fas fa-check text-gold mr-2"></i>Automatic chlorinator</li>
             </ul>
           </div>
           <div>
             <h3 class="font-serif font-bold text-lg text-navy mb-6">Equipment & Support</h3>
             <ul class="text-gray-700 text-sm space-y-2">
-              <li>✓ Pool ladder & handrails</li>
-              <li>✓ Plumbing & circulation setup</li>
-              <li>✓ Startup chemicals & test kit</li>
-              <li>✓ Installation & site preparation</li>
-              <li>✓ 1-year warranty on workmanship</li>
-              <li>✓ Free maintenance consultation</li>
+              <li><i class="fas fa-check text-gold mr-2"></i>Pool ladder &amp; handrails</li>
+              <li><i class="fas fa-check text-gold mr-2"></i>Complete plumbing &amp; circulation setup</li>
+              <li><i class="fas fa-check text-gold mr-2"></i>Chemical start-up kit</li>
+              <li><i class="fas fa-check text-gold mr-2"></i>Installation &amp; site preparation</li>
+              <li><i class="fas fa-check text-gold mr-2"></i>1-year warranty on workmanship</li>
+              <li><i class="fas fa-check text-gold mr-2"></i>Free maintenance consultation</li>
             </ul>
           </div>
         </div>
@@ -229,39 +322,40 @@
     </section>
 
     <!-- Add-Ons & Upgrades -->
-    <section class="py-20 px-4 bg-gray-50">
+    <section class="py-20 px-4 bg-white">
       <div class="max-w-4xl mx-auto">
-        <h2 class="font-serif text-4xl font-bold text-center text-navy mb-14">Popular Add-Ons & Upgrades</h2>
+        <h2 class="font-serif text-4xl font-bold text-center text-navy mb-4">Optional Accessories & Upgrades</h2>
+        <p class="text-center text-gray-600 mb-14">Enhance your pool experience with these popular add-ons</p>
         <div class="grid md:grid-cols-2 gap-6">
-          <div class="bg-white border border-gray-200 rounded-lg p-6">
-            <h3 class="font-serif font-bold text-navy mb-2">Salt System + Automation</h3>
-            <p class="text-gray-600 text-sm mb-3">Convert to saltwater with smart automation controls</p>
-            <p class="text-gold font-bold">+$3,000</p>
+          <div class="border border-gray-200 rounded-lg p-6">
+            <h3 class="font-serif font-bold text-navy mb-2">Easy Touch 4 Automation + IC-40 Intellichlor Salt System</h3>
+            <p class="text-gray-600 text-sm mb-3">Convert to saltwater with smart Pentair automation controls</p>
+            <p class="text-gold font-bold text-lg">+$3,000</p>
           </div>
-          <div class="bg-white border border-gray-200 rounded-lg p-6">
-            <h3 class="font-serif font-bold text-navy mb-2">Robotic Pool Cleaner</h3>
-            <p class="text-gray-600 text-sm mb-3">Automatic vacuum cleaner that runs on schedule</p>
-            <p class="text-gold font-bold">+$1,495</p>
+          <div class="border border-gray-200 rounded-lg p-6">
+            <h3 class="font-serif font-bold text-navy mb-2">Pentair Prowler 930 Robotic Cleaner</h3>
+            <p class="text-gray-600 text-sm mb-3">Automatic robotic vacuum cleaner that runs on a schedule</p>
+            <p class="text-gold font-bold text-lg">+$1,495</p>
           </div>
-          <div class="bg-white border border-gray-200 rounded-lg p-6">
-            <h3 class="font-serif font-bold text-navy mb-2">LED Colored Light System</h3>
+          <div class="border border-gray-200 rounded-lg p-6">
+            <h3 class="font-serif font-bold text-navy mb-2">Pentair LED Colored Intellibright Light</h3>
             <p class="text-gray-600 text-sm mb-3">Color-changing underwater lights (16+ colors)</p>
-            <p class="text-gold font-bold">+$800</p>
+            <p class="text-gold font-bold text-lg">+$800</p>
           </div>
-          <div class="bg-white border border-gray-200 rounded-lg p-6">
-            <h3 class="font-serif font-bold text-navy mb-2">Deck Jets & Spillover</h3>
-            <p class="text-gray-600 text-sm mb-3">Water features for visual appeal & circulation</p>
-            <p class="text-gold font-bold">+$800</p>
+          <div class="border border-gray-200 rounded-lg p-6">
+            <h3 class="font-serif font-bold text-navy mb-2">Two Deck Jets Water Features</h3>
+            <p class="text-gray-600 text-sm mb-3">Arching water jets for visual appeal &amp; improved circulation</p>
+            <p class="text-gold font-bold text-lg">+$800</p>
           </div>
-          <div class="bg-white border border-gray-200 rounded-lg p-6">
-            <h3 class="font-serif font-bold text-navy mb-2">Sod & Landscaping</h3>
-            <p class="text-gray-600 text-sm mb-3">Professional grass and shrub installation around pool</p>
-            <p class="text-gold font-bold">+$600</p>
+          <div class="border border-gray-200 rounded-lg p-6">
+            <h3 class="font-serif font-bold text-navy mb-2">One Set of Step Returns</h3>
+            <p class="text-gray-600 text-sm mb-3">Additional return jets built into the pool steps</p>
+            <p class="text-gold font-bold text-lg">+$750</p>
           </div>
-          <div class="bg-white border border-gray-200 rounded-lg p-6">
-            <h3 class="font-serif font-bold text-navy mb-2">Extended Warranty</h3>
-            <p class="text-gray-600 text-sm mb-3">5-year coverage on equipment & parts</p>
-            <p class="text-gold font-bold">+$1,200</p>
+          <div class="border border-gray-200 rounded-lg p-6">
+            <h3 class="font-serif font-bold text-navy mb-2">Full Pallet of Sod Installed</h3>
+            <p class="text-gray-600 text-sm mb-3">Professional grass installation around the pool area</p>
+            <p class="text-gold font-bold text-lg">+$600</p>
           </div>
         </div>
       </div>
@@ -270,7 +364,8 @@
     <!-- CTA Section -->
     <section class="bg-navy text-white py-16 px-4">
       <div class="max-w-4xl mx-auto text-center">
-        <p class="text-lg mb-8 font-medium">Ready to build your dream pool?</p>
+        <h2 class="font-serif text-3xl font-bold mb-4">Ready to Build Your Dream Pool?</h2>
+        <p class="text-lg mb-8 font-medium text-gold-light">Contact us today for a free, no-obligation quote.</p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
           <a href="contact.html" class="btn bg-gold hover:bg-gold-light text-navy px-8 py-3 rounded font-semibold">Get a Free Quote</a>
           <a href="tel:+14052268180" class="btn border-2 border-gold-light hover:bg-gold-light text-white px-8 py-3 rounded font-semibold">Call (405) 226-8180</a>
