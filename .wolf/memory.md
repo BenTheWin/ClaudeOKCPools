@@ -87,3 +87,61 @@
 | 19:18 | Created spas.html | — | ~4071 |
 | 19:19 | Created maintenance.html | — | ~3899 |
 | 19:19 | Created contact.html | — | ~3952 |
+| 19:20 | Session end: 9 writes across 6 files (.impeccable.md, index.html, swimming-pools.html, spas.html, maintenance.html) | 9 reads | ~40173 tok |
+
+## Session: 2026-04-17 19:21
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+
+## Session: 2026-04-17 19:25
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 19:27 | Edited index.html | 13→17 lines | ~376 |
+| 19:27 | designqc: captured 0 screenshots (0KB, ~0 tok) | C:/Program Files/Git/ | ready for eval | ~0 |
+| 19:28 | designqc: captured 6 screenshots (196KB, ~15000 tok) | / | ready for eval | ~0 |
+
+## Session: 2026-04-17 19:30
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 19:30 | Edited index.html (hero section) | added muted pool background image | verified w/ designqc | ~400 |
+| 19:30 | git commit: feat: add muted swimming pool background image to hero section | index.html | committed | ~0 |
+| 19:28 | Session end: 1 writes across 1 files (index.html) | 5 reads | ~3042 tok |
+| 19:31 | Edited index.html | inline fix | ~68 |
+| 19:31 | designqc: captured 6 screenshots (240KB, ~15000 tok) | / | ready for eval | ~0 |
+| 19:31 | Session end: 2 writes across 1 files (index.html) | 5 reads | ~3212 tok |
+
+## Session: 2026-04-17 19:42
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 19:54 | designqc: captured 6 screenshots (256KB, ~15000 tok) | / | ready for eval | ~0 |
+| 19:55 | Edited index.html | expanded (+8 lines) | ~192 |
+| 19:55 | Edited index.html | expanded (+14 lines) | ~429 |
+| 19:55 | Edited index.html | expanded (+10 lines) | ~1086 |
+| 19:56 | Edited index.html | 10→12 lines | ~243 |
+| 19:56 | Edited index.html | 4→4 lines | ~109 |
+| 19:56 | designqc: captured 6 screenshots (245KB, ~15000 tok) | / | ready for eval | ~0 |
+| 20:02 | polish: created unique AP monogram logo with wave, refined trust bar with gold accents, redesigned service cards with icon boxes, enhanced CTA section hierarchy, improved button styling | index.html | committed d26b780 | ~2100 |
+| 20:02 | designqc: captured 6 screenshots (245KB, ~15000 tok) | / | design polished and verified | ~0 |
+| 19:57 | Session end: 5 writes across 1 files (index.html) | 8 reads | ~6539 tok |
+
+## Session: 2026-04-17 20:01
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 20:02 | designqc: captured 6 screenshots (245KB, ~15000 tok) | / | ready for eval | ~0 |
+| 20:17 | Edited index.html | 10→13 lines | ~212 |
+| 20:17 | Edited index.html | 14→13 lines | ~288 |
+| 20:17 | Edited index.html | 13→13 lines | ~280 |
+| 20:17 | Edited index.html | 13→13 lines | ~413 |
+| 20:18 | Edited swimming-pools.html | expanded (+11 lines) | ~248 |
+| 20:18 | Edited spas.html | expanded (+11 lines) | ~262 |
+| 20:18 | Edited maintenance.html | expanded (+11 lines) | ~262 |
+| 20:18 | Edited contact.html | expanded (+11 lines) | ~262 |
+| 20:18 | Edited spas.html | 20→20 lines | ~299 |
+| 20:19 | Edited maintenance.html | "fas fa-check-circle text-" → "fas fa-check-circle text-" | ~14 |
+| 20:19 | Edited contact.html | 7→7 lines | ~129 |
+| 20:19 | designqc: captured 6 screenshots (243KB, ~15000 tok) | / | ready for eval | ~0 |

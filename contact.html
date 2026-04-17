@@ -46,7 +46,18 @@
   <!-- Navigation -->
   <nav class="sticky top-0 z-50 bg-navy text-white">
     <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
-      <a href="index.html" class="font-serif text-sm tracking-widest font-bold">ATLANTIC POOLS</a>
+      <a href="index.html" class="flex items-center gap-3 hover:opacity-80 transition-opacity">
+        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" class="flex-shrink-0">
+          <!-- AP Monogram -->
+          <text x="24" y="32" font-family="Georgia, serif" font-size="36" font-weight="bold" fill="#C49A5C" text-anchor="middle">AP</text>
+          <!-- Subtle wave under monogram -->
+          <path d="M 10 40 Q 16 36 24 40 Q 32 44 38 40" stroke="#C49A5C" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+        </svg>
+        <div class="hidden md:flex flex-col font-serif text-xs tracking-widest font-bold leading-tight">
+          <span>ATLANTIC</span>
+          <span>POOLS</span>
+        </div>
+      </a>
       <div class="hidden md:flex gap-8 items-center">
         <a href="index.html" class="nav-link text-sm font-medium">Home</a>
         <a href="swimming-pools.html" class="nav-link text-sm font-medium">Swimming Pools</a>
@@ -121,7 +132,7 @@
 
             <!-- BBB Accreditation -->
             <div class="bg-gray-50 border border-gray-200 rounded-lg p-6">
-              <p class="font-serif font-bold text-navy mb-2">✓ BBB Accredited</p>
+              <p class="font-serif font-bold text-navy mb-2"><i class="fas fa-check-circle text-gold mr-2"></i>BBB Accredited</p>
               <p class="text-sm text-gray-600">
                 Atlantic Pools is an accredited member of the Better Business Bureau, committed to customer satisfaction and ethical business practices.
               </p>

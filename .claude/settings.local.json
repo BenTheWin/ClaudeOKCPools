@@ -18,7 +18,10 @@
       "Bash(python3 scripts/search.py \"swimming pools spas service premium professional clean modern\" --design-system -p \"Atlantic Pools\" -f markdown)",
       "Bash(python3 \"C:\\\\Users\\\\Reela\\\\.claude\\\\skills\\\\ui-ux-pro-max\\\\scripts\\\\search.py\" \"swimming pools spas service premium professional clean modern\" --design-system -p \"Atlantic Pools\" -f markdown)",
       "Bash(python3 \"C:\\\\Users\\\\Reela\\\\.claude\\\\skills\\\\ui-ux-pro-max\\\\scripts\\\\search.py\" \"navy blue professional service pool luxury premium\" --domain color)",
-      "Bash(python3 \"C:\\\\Users\\\\Reela\\\\.claude\\\\skills\\\\ui-ux-pro-max\\\\scripts\\\\search.py\" \"hover states animation transitions cards buttons\" --domain ux)"
+      "Bash(python3 \"C:\\\\Users\\\\Reela\\\\.claude\\\\skills\\\\ui-ux-pro-max\\\\scripts\\\\search.py\" \"hover states animation transitions cards buttons\" --domain ux)",
+      "Bash(npx http-server *)",
+      "Bash(python -m http.server 8000)",
+      "WebSearch"
     ]
   }
 }

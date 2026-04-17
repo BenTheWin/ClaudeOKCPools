@@ -32,6 +32,54 @@
       "related_bugs": [],
       "occurrences": 1,
       "last_seen": "2026-04-17T00:17:04.865Z"
+    },
+    {
+      "id": "bug-003",
+      "timestamp": "2026-04-17T00:27:31.026Z",
+      "error_message": "Significant refactor of ",
+      "file": "index.html",
+      "root_cause": "2 lines replaced/restructured",
+      "fix": "Rewrote 13→17 lines (2 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "html"
+      ],
+      "related_bugs": [],
+      "occurrences": 1,
+      "last_seen": "2026-04-17T00:27:31.026Z"
+    },
+    {
+      "id": "bug-004",
+      "timestamp": "2026-04-17T00:55:22.440Z",
+      "error_message": "Significant refactor of ",
+      "file": "index.html",
+      "root_cause": "14 lines replaced/restructured",
+      "fix": "Rewrote 21→35 lines (14 removed) | Also: <h2 class=\"font-serif text-4xl font-bold text-cent; <p class=\"text-center text-gray-600 mb-14 font-med | Also: <section class=\"bg-navy text-white py-16 px-4\">; <div class=\"max-w-4xl mx-auto text-center\">",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "html"
+      ],
+      "related_bugs": [],
+      "occurrences": 3,
+      "last_seen": "2026-04-17T00:56:00.096Z"
+    },
+    {
+      "id": "bug-005",
+      "timestamp": "2026-04-17T01:19:10.327Z",
+      "error_message": "Incorrect value in code",
+      "file": "maintenance.html",
+      "root_cause": "Had \"fas fa-check-circle text-gold mr-2\"",
+      "fix": "Changed to \"fas fa-check-circle text-navy mr-2\"",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "html"
+      ],
+      "related_bugs": [],
+      "occurrences": 1,
+      "last_seen": "2026-04-17T01:19:10.327Z"
     }
   ]
 }

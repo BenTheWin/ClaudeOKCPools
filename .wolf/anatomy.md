@@ -1,6 +1,6 @@
 # anatomy.md
 
-> Auto-maintained by OpenWolf. Last scanned: 2026-04-17T00:19:39.552Z
+> Auto-maintained by OpenWolf. Last scanned: 2026-04-17T01:19:26.302Z
 > Files: 14 tracked | Anatomy hits: 0 | Misses: 0
 
 ## ../../Users/Reela/.claude/plans/
@@ -12,11 +12,11 @@
 - `.gitignore` — Git ignore rules (~78 tok)
 - `.impeccable.md` — Design Context for Atlantic Pools (~725 tok)
 - `CLAUDE.md` — OpenWolf + Git/GitHub Workflow (~356 tok)
-- `contact.html` — Contact Atlantic Pools — Swimming Pools & Spas in Oklahoma City (~3952 tok)
-- `index.html` — Atlantic Pools — Swimming Pools & Spas in Oklahoma City (~2639 tok)
-- `maintenance.html` — Pool Maintenance & Equipment Services | Atlantic Pools (~3899 tok)
-- `spas.html` — Hot Tubs & Spas — Garden Leisure | Atlantic Pools (~4071 tok)
-- `swimming-pools.html` — Swimming Pools — Custom Gunite, Fiberglass & Vinyl | Atlantic Pools (~3984 tok)
+- `contact.html` — Contact Atlantic Pools — Swimming Pools & Spas in Oklahoma City (~4145 tok)
+- `index.html` — Atlantic Pools — Swimming Pools & Spas in Oklahoma City (~3632 tok)
+- `maintenance.html` — Pool Maintenance & Equipment Services | Atlantic Pools (~4079 tok)
+- `spas.html` — Hot Tubs & Spas — Garden Leisure | Atlantic Pools (~4292 tok)
+- `swimming-pools.html` — Swimming Pools — Custom Gunite, Fiberglass & Vinyl | Atlantic Pools (~4164 tok)
 
 ## .claude/
 

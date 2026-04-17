@@ -2,14 +2,14 @@
   "version": 1,
   "created_at": "2026-04-16T22:52:08.743Z",
   "lifetime": {
-    "total_tokens_estimated": 58480,
-    "total_reads": 44,
-    "total_writes": 41,
-    "total_sessions": 7,
-    "anatomy_hits": 15,
-    "anatomy_misses": 29,
-    "repeated_reads_blocked": 7,
-    "estimated_savings_vs_bare_cli": 5136
+    "total_tokens_estimated": 116507,
+    "total_reads": 81,
+    "total_writes": 58,
+    "total_sessions": 11,
+    "anatomy_hits": 28,
+    "anatomy_misses": 52,
+    "repeated_reads_blocked": 19,
+    "estimated_savings_vs_bare_cli": 40220
   },
   "sessions": [
     {
@@ -662,6 +662,413 @@
         "output_tokens_estimated": 828,
         "reads_count": 5,
         "writes_count": 1,
+        "repeated_reads_blocked": 0,
+        "anatomy_lookups": 2
+      }
+    },
+    {
+      "id": "session-2026-04-17-1905",
+      "started": "2026-04-17T00:05:29.683Z",
+      "ended": "2026-04-17T00:20:17.114Z",
+      "reads": [
+        {
+          "file": "C:/Code/ClaudeOKCPools/README.md",
+          "tokens_estimated": 0,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "C:/Code/ClaudeOKCPools/package.json",
+          "tokens_estimated": 0,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "C:/Code/ClaudeOKCPools/index.html",
+          "tokens_estimated": 2639,
+          "was_repeated": true,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "C:/Users/Reela/.claude/plans/i-m-looking-to-redo-zesty-mango.md",
+          "tokens_estimated": 0,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "C:/Code/ClaudeOKCPools/.superpowers/brainstorm/1105-1776381730/content/design-direction.html",
+          "tokens_estimated": 956,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "C:/Code/ClaudeOKCPools/swimming-pools.html",
+          "tokens_estimated": 3791,
+          "was_repeated": true,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "C:/Code/ClaudeOKCPools/spas.html",
+          "tokens_estimated": 3902,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "C:/Code/ClaudeOKCPools/maintenance.html",
+          "tokens_estimated": 3832,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "C:/Code/ClaudeOKCPools/contact.html",
+          "tokens_estimated": 3746,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        }
+      ],
+      "writes": [
+        {
+          "file": "C:/Code/ClaudeOKCPools/.impeccable.md",
+          "tokens_estimated": 828,
+          "action": "create"
+        },
+        {
+          "file": "C:/Code/ClaudeOKCPools/index.html",
+          "tokens_estimated": 436,
+          "action": "edit"
+        },
+        {
+          "file": "C:/Code/ClaudeOKCPools/index.html",
+          "tokens_estimated": 85,
+          "action": "edit"
+        },
+        {
+          "file": "C:/Code/ClaudeOKCPools/index.html",
+          "tokens_estimated": 88,
+          "action": "edit"
+        },
+        {
+          "file": "C:/Code/ClaudeOKCPools/index.html",
+          "tokens_estimated": 2828,
+          "action": "create"
+        },
+        {
+          "file": "C:/Code/ClaudeOKCPools/swimming-pools.html",
+          "tokens_estimated": 4269,
+          "action": "create"
+        },
+        {
+          "file": "C:/Code/ClaudeOKCPools/spas.html",
+          "tokens_estimated": 4362,
+          "action": "create"
+        },
+        {
+          "file": "C:/Code/ClaudeOKCPools/maintenance.html",
+          "tokens_estimated": 4177,
+          "action": "create"
+        },
+        {
+          "file": "C:/Code/ClaudeOKCPools/contact.html",
+          "tokens_estimated": 4234,
+          "action": "create"
+        }
+      ],
+      "totals": {
+        "input_tokens_estimated": 18866,
+        "output_tokens_estimated": 21307,
+        "reads_count": 9,
+        "writes_count": 9,
+        "repeated_reads_blocked": 4,
+        "anatomy_lookups": 6
+      }
+    },
+    {
+      "id": "session-2026-04-17-1925",
+      "started": "2026-04-17T00:25:41.302Z",
+      "ended": "2026-04-17T00:28:34.377Z",
+      "reads": [
+        {
+          "file": "c:/Code/ClaudeOKCPools/.wolf/anatomy.md",
+          "tokens_estimated": 0,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "c:/Code/ClaudeOKCPools/.wolf/cerebrum.md",
+          "tokens_estimated": 0,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "c:/Code/ClaudeOKCPools/index.html",
+          "tokens_estimated": 2639,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "c:/Code/ClaudeOKCPools/.wolf/designqc-captures/root_desktop_top.jpg",
+          "tokens_estimated": 0,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "c:/Code/ClaudeOKCPools/.wolf/memory.md",
+          "tokens_estimated": 0,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        }
+      ],
+      "writes": [
+        {
+          "file": "c:/Code/ClaudeOKCPools/index.html",
+          "tokens_estimated": 403,
+          "action": "edit"
+        }
+      ],
+      "totals": {
+        "input_tokens_estimated": 2639,
+        "output_tokens_estimated": 403,
+        "reads_count": 5,
+        "writes_count": 1,
+        "repeated_reads_blocked": 0,
+        "anatomy_lookups": 1
+      }
+    },
+    {
+      "id": "session-2026-04-17-1925",
+      "started": "2026-04-17T00:25:41.302Z",
+      "ended": "2026-04-17T00:31:46.572Z",
+      "reads": [
+        {
+          "file": "c:/Code/ClaudeOKCPools/.wolf/anatomy.md",
+          "tokens_estimated": 0,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "c:/Code/ClaudeOKCPools/.wolf/cerebrum.md",
+          "tokens_estimated": 0,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "c:/Code/ClaudeOKCPools/index.html",
+          "tokens_estimated": 2736,
+          "was_repeated": true,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "c:/Code/ClaudeOKCPools/.wolf/designqc-captures/root_desktop_top.jpg",
+          "tokens_estimated": 0,
+          "was_repeated": true,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "c:/Code/ClaudeOKCPools/.wolf/memory.md",
+          "tokens_estimated": 0,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        }
+      ],
+      "writes": [
+        {
+          "file": "c:/Code/ClaudeOKCPools/index.html",
+          "tokens_estimated": 403,
+          "action": "edit"
+        },
+        {
+          "file": "c:/Code/ClaudeOKCPools/index.html",
+          "tokens_estimated": 73,
+          "action": "edit"
+        }
+      ],
+      "totals": {
+        "input_tokens_estimated": 2736,
+        "output_tokens_estimated": 476,
+        "reads_count": 5,
+        "writes_count": 2,
+        "repeated_reads_blocked": 2,
+        "anatomy_lookups": 1
+      }
+    },
+    {
+      "id": "session-2026-04-17-1942",
+      "started": "2026-04-17T00:42:35.114Z",
+      "ended": "2026-04-17T00:46:50.871Z",
+      "reads": [
+        {
+          "file": "c:/Code/ClaudeOKCPools/.impeccable.md",
+          "tokens_estimated": 725,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        }
+      ],
+      "writes": [],
+      "totals": {
+        "input_tokens_estimated": 725,
+        "output_tokens_estimated": 0,
+        "reads_count": 1,
+        "writes_count": 0,
+        "repeated_reads_blocked": 0,
+        "anatomy_lookups": 1
+      }
+    },
+    {
+      "id": "session-2026-04-17-1942",
+      "started": "2026-04-17T00:42:35.114Z",
+      "ended": "2026-04-17T00:57:06.999Z",
+      "reads": [
+        {
+          "file": "c:/Code/ClaudeOKCPools/.impeccable.md",
+          "tokens_estimated": 725,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "c:/Code/ClaudeOKCPools/.wolf/anatomy.md",
+          "tokens_estimated": 0,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "c:/Code/ClaudeOKCPools/.wolf/designqc-captures/root_desktop_top.jpg",
+          "tokens_estimated": 0,
+          "was_repeated": true,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "c:/Code/ClaudeOKCPools/index.html",
+          "tokens_estimated": 3608,
+          "was_repeated": true,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "c:/Code/ClaudeOKCPools/.wolf/designqc-captures/root_mobile_top.jpg",
+          "tokens_estimated": 0,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "c:/Code/ClaudeOKCPools/.wolf/designqc-captures/root_desktop_section2.jpg",
+          "tokens_estimated": 0,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "c:/Code/ClaudeOKCPools/.wolf/designqc-captures/root_desktop_bottom.jpg",
+          "tokens_estimated": 0,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "c:/Code/ClaudeOKCPools/.wolf/memory.md",
+          "tokens_estimated": 0,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        }
+      ],
+      "writes": [
+        {
+          "file": "c:/Code/ClaudeOKCPools/index.html",
+          "tokens_estimated": 205,
+          "action": "edit"
+        },
+        {
+          "file": "c:/Code/ClaudeOKCPools/index.html",
+          "tokens_estimated": 460,
+          "action": "edit"
+        },
+        {
+          "file": "c:/Code/ClaudeOKCPools/index.html",
+          "tokens_estimated": 1163,
+          "action": "edit"
+        },
+        {
+          "file": "c:/Code/ClaudeOKCPools/index.html",
+          "tokens_estimated": 261,
+          "action": "edit"
+        },
+        {
+          "file": "c:/Code/ClaudeOKCPools/index.html",
+          "tokens_estimated": 117,
+          "action": "edit"
+        }
+      ],
+      "totals": {
+        "input_tokens_estimated": 4333,
+        "output_tokens_estimated": 2206,
+        "reads_count": 8,
+        "writes_count": 5,
+        "repeated_reads_blocked": 6,
+        "anatomy_lookups": 2
+      }
+    },
+    {
+      "id": "session-2026-04-17-2001",
+      "started": "2026-04-17T01:01:21.282Z",
+      "ended": "2026-04-17T01:03:23.165Z",
+      "reads": [
+        {
+          "file": "c:/Code/ClaudeOKCPools/.impeccable.md",
+          "tokens_estimated": 725,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "c:/Code/ClaudeOKCPools/.wolf/designqc-captures/root_desktop_top.jpg",
+          "tokens_estimated": 0,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "c:/Code/ClaudeOKCPools/.wolf/designqc-captures/root_desktop_section2.jpg",
+          "tokens_estimated": 0,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "c:/Code/ClaudeOKCPools/.wolf/designqc-captures/root_desktop_bottom.jpg",
+          "tokens_estimated": 0,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "c:/Code/ClaudeOKCPools/.wolf/designqc-captures/root_mobile_top.jpg",
+          "tokens_estimated": 0,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "c:/Code/ClaudeOKCPools/.wolf/designqc-captures/root_mobile_section2.jpg",
+          "tokens_estimated": 0,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "c:/Code/ClaudeOKCPools/.wolf/designqc-captures/root_mobile_section3.jpg",
+          "tokens_estimated": 0,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "c:/Code/ClaudeOKCPools/.wolf/anatomy.md",
+          "tokens_estimated": 0,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "c:/Code/ClaudeOKCPools/index.html",
+          "tokens_estimated": 3611,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        }
+      ],
+      "writes": [],
+      "totals": {
+        "input_tokens_estimated": 4336,
+        "output_tokens_estimated": 0,
+        "reads_count": 9,
+        "writes_count": 0,
         "repeated_reads_blocked": 0,
         "anatomy_lookups": 2
       }
