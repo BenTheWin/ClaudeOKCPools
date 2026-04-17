@@ -19,10 +19,19 @@
       }
     }
   </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <style>
-    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
+    body { font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
     .nav-link { transition: color 0.2s; }
     .nav-link:hover { color: #64b5f6; }
+    .card { transition: all 0.3s ease; }
+    .card:hover { transform: translateY(-4px); box-shadow: 0 20px 25px -5px rgba(10, 37, 64, 0.15); }
+    .btn { transition: all 0.3s ease; cursor: pointer; }
+    .btn:hover { transform: translateY(-2px); box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.2); }
+    a { cursor: pointer; }
     table { width: 100%; border-collapse: collapse; }
     table th, table td { padding: 12px; text-align: left; border-bottom: 1px solid #e0e0e0; }
     table th { background: #f8f9fa; font-weight: 700; color: #0a2540; }
@@ -73,40 +82,40 @@
         <h2 class="text-3xl font-bold text-center text-navy mb-12">Pool Construction Types</h2>
         <div class="grid md:grid-cols-3 gap-6">
           <!-- Gunite -->
-          <div class="border border-gray-200 rounded-lg p-6 hover:shadow-lg transition">
+          <div class="card border border-gray-200 rounded-lg p-6 shadow">
             <h3 class="text-xl font-bold text-navy mb-4">Custom Gunite Pools</h3>
             <ul class="text-gray-700 text-sm space-y-2">
-              <li>✓ Any shape and size</li>
-              <li>✓ Fully customizable design</li>
-              <li>✓ Durable concrete construction</li>
-              <li>✓ 20+ year lifespan</li>
-              <li>✓ Best for unique designs</li>
+              <li><i class="fas fa-check-circle text-blue mr-2"></i>Any shape and size</li>
+              <li><i class="fas fa-check-circle text-blue mr-2"></i>Fully customizable design</li>
+              <li><i class="fas fa-check-circle text-blue mr-2"></i>Durable concrete construction</li>
+              <li><i class="fas fa-check-circle text-blue mr-2"></i>20+ year lifespan</li>
+              <li><i class="fas fa-check-circle text-blue mr-2"></i>Best for unique designs</li>
             </ul>
             <p class="text-blue font-bold mt-4">Starting at $30,500</p>
           </div>
 
           <!-- Fiberglass -->
-          <div class="border border-gray-200 rounded-lg p-6 hover:shadow-lg transition">
+          <div class="card border border-gray-200 rounded-lg p-6 shadow">
             <h3 class="text-xl font-bold text-navy mb-4">Fiberglass Pools</h3>
             <ul class="text-gray-700 text-sm space-y-2">
-              <li>✓ Pre-manufactured shells</li>
-              <li>✓ Quick installation (3-6 weeks)</li>
-              <li>✓ Smooth gel-coat finish</li>
-              <li>✓ Lower maintenance costs</li>
-              <li>✓ 25+ year lifespan</li>
+              <li><i class="fas fa-check-circle text-blue mr-2"></i>Pre-manufactured shells</li>
+              <li><i class="fas fa-check-circle text-blue mr-2"></i>Quick installation (3-6 weeks)</li>
+              <li><i class="fas fa-check-circle text-blue mr-2"></i>Smooth gel-coat finish</li>
+              <li><i class="fas fa-check-circle text-blue mr-2"></i>Lower maintenance costs</li>
+              <li><i class="fas fa-check-circle text-blue mr-2"></i>25+ year lifespan</li>
             </ul>
             <p class="text-blue font-bold mt-4">Starting at $28,000</p>
           </div>
 
           <!-- Vinyl -->
-          <div class="border border-gray-200 rounded-lg p-6 hover:shadow-lg transition">
+          <div class="card border border-gray-200 rounded-lg p-6 shadow">
             <h3 class="text-xl font-bold text-navy mb-4">Vinyl In-Ground Pools</h3>
             <ul class="text-gray-700 text-sm space-y-2">
-              <li>✓ Most affordable option</li>
-              <li>✓ Wide range of designs</li>
-              <li>✓ Soft, comfortable surface</li>
-              <li>✓ 7-10 year liner lifespan</li>
-              <li>✓ Easy maintenance</li>
+              <li><i class="fas fa-check-circle text-blue mr-2"></i>Most affordable option</li>
+              <li><i class="fas fa-check-circle text-blue mr-2"></i>Wide range of designs</li>
+              <li><i class="fas fa-check-circle text-blue mr-2"></i>Soft, comfortable surface</li>
+              <li><i class="fas fa-check-circle text-blue mr-2"></i>7-10 year liner lifespan</li>
+              <li><i class="fas fa-check-circle text-blue mr-2"></i>Easy maintenance</li>
             </ul>
             <p class="text-blue font-bold mt-4">Starting at $18,500</p>
           </div>
@@ -246,8 +255,8 @@
       <div class="max-w-4xl mx-auto text-center">
         <p class="text-lg mb-6">Ready to build your dream pool?</p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
-          <a href="contact.html" class="bg-blue hover:bg-blue-light text-white px-6 py-3 rounded font-bold transition">Get a Free Quote</a>
-          <a href="tel:+14052268180" class="border-2 border-blue-light hover:bg-blue-light text-white px-6 py-3 rounded font-bold transition">Call (405) 226-8180</a>
+          <a href="contact.html" class="btn bg-blue hover:bg-blue-light text-white px-6 py-3 rounded font-bold">Get a Free Quote</a>
+          <a href="tel:+14052268180" class="btn border-2 border-blue-light hover:bg-blue-light text-white px-6 py-3 rounded font-bold">Call (405) 226-8180</a>
         </div>
       </div>
     </section>

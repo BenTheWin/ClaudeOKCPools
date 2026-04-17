@@ -19,10 +19,19 @@
       }
     }
   </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <style>
-    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
+    body { font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
     .nav-link { transition: color 0.2s; }
     .nav-link:hover { color: #64b5f6; }
+    .card { transition: all 0.3s ease; }
+    .card:hover { transform: translateY(-4px); box-shadow: 0 20px 25px -5px rgba(10, 37, 64, 0.15); }
+    .btn { transition: all 0.3s ease; cursor: pointer; }
+    .btn:hover { transform: translateY(-2px); box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.2); }
+    a { cursor: pointer; }
   </style>
 </head>
 <body class="bg-white">
@@ -81,71 +90,71 @@
         <h2 class="text-3xl font-bold text-center text-navy mb-12">Our Maintenance Services</h2>
         <div class="grid md:grid-cols-2 gap-6">
           <!-- Service 1 -->
-          <div class="border border-gray-200 rounded-lg p-6 hover:shadow-lg transition">
-            <div class="text-4xl mb-3">🏊</div>
+          <div class="card border border-gray-200 rounded-lg p-6 shadow">
+            <div class="text-4xl mb-3 text-blue"><i class="fas fa-water"></i></div>
             <h3 class="text-xl font-bold text-navy mb-2">Pool Cleaning & Vacuuming</h3>
             <p class="text-gray-600 text-sm">Weekly, bi-weekly, or monthly cleaning. Includes skimming, brushing walls, and vacuuming the bottom to keep your pool pristine.</p>
           </div>
 
           <!-- Service 2 -->
-          <div class="border border-gray-200 rounded-lg p-6 hover:shadow-lg transition">
-            <div class="text-4xl mb-3">⚗️</div>
+          <div class="card border border-gray-200 rounded-lg p-6 shadow">
+            <div class="text-4xl mb-3 text-blue"><i class="fas fa-flask-vial"></i></div>
             <h3 class="text-xl font-bold text-navy mb-2">Water Chemistry Balancing</h3>
             <p class="text-gray-600 text-sm">Professional testing and chemical balancing. We maintain proper pH, alkalinity, chlorine, and calcium levels for safe, comfortable swimming.</p>
           </div>
 
           <!-- Service 3 -->
-          <div class="border border-gray-200 rounded-lg p-6 hover:shadow-lg transition">
-            <div class="text-4xl mb-3">🔄</div>
+          <div class="card border border-gray-200 rounded-lg p-6 shadow">
+            <div class="text-4xl mb-3 text-blue"><i class="fas fa-sync"></i></div>
             <h3 class="text-xl font-bold text-navy mb-2">Filter Cleaning & Backwashing</h3>
             <p class="text-gray-600 text-sm">Regular filter maintenance extends equipment life and improves water clarity. We clean cartridge filters and perform backwashing as needed.</p>
           </div>
 
           <!-- Service 4 -->
-          <div class="border border-gray-200 rounded-lg p-6 hover:shadow-lg transition">
-            <div class="text-4xl mb-3">⚙️</div>
+          <div class="card border border-gray-200 rounded-lg p-6 shadow">
+            <div class="text-4xl mb-3 text-blue"><i class="fas fa-cog"></i></div>
             <h3 class="text-xl font-bold text-navy mb-2">Pump & Motor Repair</h3>
             <p class="text-gray-600 text-sm">Diagnosing and repairing pump and motor issues. We handle leaks, performance problems, and equipment replacement if needed.</p>
           </div>
 
           <!-- Service 5 -->
-          <div class="border border-gray-200 rounded-lg p-6 hover:shadow-lg transition">
-            <div class="text-4xl mb-3">🔥</div>
+          <div class="card border border-gray-200 rounded-lg p-6 shadow">
+            <div class="text-4xl mb-3 text-blue"><i class="fas fa-fire"></i></div>
             <h3 class="text-xl font-bold text-navy mb-2">Heater Service & Repair</h3>
             <p class="text-gray-600 text-sm">Gas and electric heater maintenance, troubleshooting, and repair. Keep your pool warm and comfortable year-round.</p>
           </div>
 
           <!-- Service 6 -->
-          <div class="border border-gray-200 rounded-lg p-6 hover:shadow-lg transition">
-            <div class="text-4xl mb-3">🧂</div>
+          <div class="card border border-gray-200 rounded-lg p-6 shadow">
+            <div class="text-4xl mb-3 text-blue"><i class="fas fa-droplet"></i></div>
             <h3 class="text-xl font-bold text-navy mb-2">Salt System Maintenance</h3>
             <p class="text-gray-600 text-sm">Salt chlorinator cell cleaning, calcium buildup removal, and system troubleshooting. Keep your salt system running efficiently.</p>
           </div>
 
           <!-- Service 7 -->
-          <div class="border border-gray-200 rounded-lg p-6 hover:shadow-lg transition">
-            <div class="text-4xl mb-3">❄️</div>
+          <div class="card border border-gray-200 rounded-lg p-6 shadow">
+            <div class="text-4xl mb-3 text-blue"><i class="fas fa-snowflake"></i></div>
             <h3 class="text-xl font-bold text-navy mb-2">Winterization & Pool Closing</h3>
             <p class="text-gray-600 text-sm">Professional seasonal closing. We drain, clean, and protect your pool for winter with proper chemical treatment and equipment winterization.</p>
           </div>
 
           <!-- Service 8 -->
-          <div class="border border-gray-200 rounded-lg p-6 hover:shadow-lg transition">
-            <div class="text-4xl mb-3">🌱</div>
+          <div class="card border border-gray-200 rounded-lg p-6 shadow">
+            <div class="text-4xl mb-3 text-blue"><i class="fas fa-leaf"></i></div>
             <h3 class="text-xl font-bold text-navy mb-2">Spring Opening</h3>
             <p class="text-gray-600 text-sm">Get your pool ready for summer. We open, fill, clean, balance chemistry, and inspect all equipment for peak performance.</p>
           </div>
 
           <!-- Service 9 -->
-          <div class="border border-gray-200 rounded-lg p-6 hover:shadow-lg transition">
-            <div class="text-4xl mb-3">🔧</div>
+          <div class="card border border-gray-200 rounded-lg p-6 shadow">
+            <div class="text-4xl mb-3 text-blue"><i class="fas fa-screwdriver"></i></div>
             <h3 class="text-xl font-bold text-navy mb-2">Equipment Replacement</h3>
             <p class="text-gray-600 text-sm">Upgrade or replace worn-out pumps, filters, lights, controllers, and other components. We handle installation and startup.</p>
           </div>
 
           <!-- Service 10 -->
-          <div class="border border-gray-200 rounded-lg p-6 hover:shadow-lg transition">
-            <div class="text-4xl mb-3">🔍</div>
+          <div class="card border border-gray-200 rounded-lg p-6 shadow">
+            <div class="text-4xl mb-3 text-blue"><i class="fas fa-magnifying-glass"></i></div>
             <h3 class="text-xl font-bold text-navy mb-2">Leak Detection & Repair</h3>
             <p class="text-gray-600 text-sm">Detect water leaks in plumbing, liners, or equipment. We locate the problem and provide repair solutions to prevent water waste.</p>
           </div>
@@ -159,46 +168,46 @@
         <h2 class="text-3xl font-bold text-center text-navy mb-12">Maintenance Plans</h2>
         <div class="grid md:grid-cols-3 gap-6">
           <!-- Weekly -->
-          <div class="bg-white border border-gray-200 rounded-lg p-6 text-center">
+          <div class="card bg-white border border-gray-200 rounded-lg p-6 text-center shadow">
             <h3 class="text-xl font-bold text-navy mb-2">Weekly Service</h3>
             <p class="text-3xl font-bold text-blue mb-4">$65–$85</p>
             <p class="text-gray-600 text-sm mb-4">Per visit</p>
             <ul class="text-left text-sm text-gray-700 space-y-2 mb-6">
-              <li>✓ Cleaning & vacuuming</li>
-              <li>✓ Chemical testing</li>
-              <li>✓ Filter check</li>
-              <li>✓ Equipment inspection</li>
+              <li><i class="fas fa-check-circle text-blue mr-2"></i>Cleaning & vacuuming</li>
+              <li><i class="fas fa-check-circle text-blue mr-2"></i>Chemical testing</li>
+              <li><i class="fas fa-check-circle text-blue mr-2"></i>Filter check</li>
+              <li><i class="fas fa-check-circle text-blue mr-2"></i>Equipment inspection</li>
             </ul>
-            <a href="contact.html" class="text-blue font-bold hover:text-blue-light transition">Schedule Now →</a>
+            <a href="contact.html" class="text-blue font-bold hover:text-blue-light transition cursor-pointer">Schedule Now →</a>
           </div>
 
           <!-- Bi-Weekly -->
-          <div class="bg-white border border-blue rounded-lg p-6 text-center ring-2 ring-blue ring-opacity-50">
+          <div class="card bg-white border-2 border-blue rounded-lg p-6 text-center shadow-lg">
             <div class="bg-blue text-white px-3 py-1 rounded text-xs font-bold inline-block mb-2">MOST POPULAR</div>
             <h3 class="text-xl font-bold text-navy mb-2">Bi-Weekly Service</h3>
             <p class="text-3xl font-bold text-blue mb-4">$45–$60</p>
             <p class="text-gray-600 text-sm mb-4">Per visit</p>
             <ul class="text-left text-sm text-gray-700 space-y-2 mb-6">
-              <li>✓ Cleaning & vacuuming</li>
-              <li>✓ Chemical balancing</li>
-              <li>✓ Filter maintenance</li>
-              <li>✓ Equipment inspection</li>
+              <li><i class="fas fa-check-circle text-blue mr-2"></i>Cleaning & vacuuming</li>
+              <li><i class="fas fa-check-circle text-blue mr-2"></i>Chemical balancing</li>
+              <li><i class="fas fa-check-circle text-blue mr-2"></i>Filter maintenance</li>
+              <li><i class="fas fa-check-circle text-blue mr-2"></i>Equipment inspection</li>
             </ul>
-            <a href="contact.html" class="text-blue font-bold hover:text-blue-light transition">Schedule Now →</a>
+            <a href="contact.html" class="text-blue font-bold hover:text-blue-light transition cursor-pointer">Schedule Now →</a>
           </div>
 
           <!-- Monthly -->
-          <div class="bg-white border border-gray-200 rounded-lg p-6 text-center">
+          <div class="card bg-white border border-gray-200 rounded-lg p-6 text-center shadow">
             <h3 class="text-xl font-bold text-navy mb-2">Monthly Check-up</h3>
             <p class="text-3xl font-bold text-blue mb-4">$120–$160</p>
             <p class="text-gray-600 text-sm mb-4">Per month</p>
             <ul class="text-left text-sm text-gray-700 space-y-2 mb-6">
-              <li>✓ Full cleaning</li>
-              <li>✓ Chemistry testing</li>
-              <li>✓ Equipment check</li>
-              <li>✓ Detailed report</li>
+              <li><i class="fas fa-check-circle text-blue mr-2"></i>Full cleaning</li>
+              <li><i class="fas fa-check-circle text-blue mr-2"></i>Chemistry testing</li>
+              <li><i class="fas fa-check-circle text-blue mr-2"></i>Equipment check</li>
+              <li><i class="fas fa-check-circle text-blue mr-2"></i>Detailed report</li>
             </ul>
-            <a href="contact.html" class="text-blue font-bold hover:text-blue-light transition">Schedule Now →</a>
+            <a href="contact.html" class="text-blue font-bold hover:text-blue-light transition cursor-pointer">Schedule Now →</a>
           </div>
         </div>
       </div>
@@ -209,8 +218,8 @@
       <div class="max-w-4xl mx-auto text-center">
         <p class="text-lg mb-6">Schedule maintenance or get a repair estimate today</p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
-          <a href="contact.html" class="bg-blue hover:bg-blue-light text-white px-6 py-3 rounded font-bold transition">Request Service</a>
-          <a href="tel:+14052268180" class="border-2 border-blue-light hover:bg-blue-light text-white px-6 py-3 rounded font-bold transition">Call (405) 226-8180</a>
+          <a href="contact.html" class="btn bg-blue hover:bg-blue-light text-white px-6 py-3 rounded font-bold">Request Service</a>
+          <a href="tel:+14052268180" class="btn border-2 border-blue-light hover:bg-blue-light text-white px-6 py-3 rounded font-bold">Call (405) 226-8180</a>
         </div>
       </div>
     </section>

@@ -19,11 +19,20 @@
       }
     }
   </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <style>
-    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
+    body { font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
     .nav-link { transition: color 0.2s; }
     .nav-link:hover { color: #64b5f6; }
     input, textarea, select { font-family: inherit; }
+    .card { transition: all 0.3s ease; }
+    .card:hover { transform: translateY(-4px); box-shadow: 0 20px 25px -5px rgba(10, 37, 64, 0.15); }
+    .btn { transition: all 0.3s ease; cursor: pointer; }
+    .btn:hover { transform: translateY(-2px); box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.2); }
+    a { cursor: pointer; }
   </style>
 </head>
 <body class="bg-white">
@@ -190,7 +199,7 @@
               <!-- Submit Button -->
               <button
                 type="submit"
-                class="w-full bg-blue hover:bg-blue-light text-white font-bold py-3 rounded-lg transition"
+                class="btn w-full bg-blue hover:bg-blue-light text-white font-bold py-3 rounded-lg"
               >
                 Send Message
               </button>
@@ -261,10 +270,10 @@
       <div class="max-w-4xl mx-auto text-center">
         <p class="text-lg mb-6">Ready to start your pool or spa project?</p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
-          <a href="tel:+14052268180" class="bg-blue hover:bg-blue-light text-white px-6 py-3 rounded font-bold transition">
+          <a href="tel:+14052268180" class="btn bg-blue hover:bg-blue-light text-white px-6 py-3 rounded font-bold">
             Text (405) 226-8180
           </a>
-          <a href="#" onclick="document.querySelector('form').scrollIntoView({behavior:'smooth'}); return false;" class="border-2 border-blue-light hover:bg-blue-light text-white px-6 py-3 rounded font-bold transition">
+          <a href="#" onclick="document.querySelector('form').scrollIntoView({behavior:'smooth'}); return false;" class="btn border-2 border-blue-light hover:bg-blue-light text-white px-6 py-3 rounded font-bold">
             Fill Out Form Above
           </a>
         </div>
