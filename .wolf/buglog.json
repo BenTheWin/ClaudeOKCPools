@@ -80,6 +80,182 @@
       "related_bugs": [],
       "occurrences": 1,
       "last_seen": "2026-04-17T01:19:10.327Z"
+    },
+    {
+      "id": "bug-006",
+      "timestamp": "2026-04-17T01:43:21.459Z",
+      "error_message": "Incorrect value in code",
+      "file": "index.html",
+      "root_cause": "Had \"nav-link text-sm font-medium\"",
+      "fix": "Changed to \"nav-link nav-active text-sm font-semibold\"",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "html"
+      ],
+      "related_bugs": [],
+      "occurrences": 1,
+      "last_seen": "2026-04-17T01:43:21.459Z"
+    },
+    {
+      "id": "bug-007",
+      "timestamp": "2026-04-17T01:43:26.063Z",
+      "error_message": "Wrong reference: $30 should be $35",
+      "file": "index.html",
+      "root_cause": "Used \"$30\" instead of \"$35\"",
+      "fix": "Changed $30 → $35",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "html"
+      ],
+      "related_bugs": [],
+      "occurrences": 2,
+      "last_seen": "2026-04-17T01:43:34.710Z"
+    },
+    {
+      "id": "bug-008",
+      "timestamp": "2026-04-17T01:44:00.610Z",
+      "error_message": "Incorrect value in code",
+      "file": "swimming-pools.html",
+      "root_cause": "Had \"text-lg text-gold-light font-medium max-w-3xl mx-",
+      "fix": "Changed to \"text-lg text-gold-light font-medium max-w-2xl mx-",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "html"
+      ],
+      "related_bugs": [],
+      "occurrences": 1,
+      "last_seen": "2026-04-17T01:44:00.610Z"
+    },
+    {
+      "id": "bug-009",
+      "timestamp": "2026-04-17T01:44:04.607Z",
+      "error_message": "Wrong reference: 2025 should be 2026",
+      "file": "swimming-pools.html",
+      "root_cause": "Used \"2025\" instead of \"2026\"",
+      "fix": "Changed 2025 → 2026",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "html"
+      ],
+      "related_bugs": [],
+      "occurrences": 1,
+      "last_seen": "2026-04-17T01:44:04.607Z"
+    },
+    {
+      "id": "bug-010",
+      "timestamp": "2026-04-17T01:44:29.692Z",
+      "error_message": "Incorrect value in code",
+      "file": "spas.html",
+      "root_cause": "Had \"text-lg mb-8 font-medium\"",
+      "fix": "Changed to \"font-serif text-3xl md:text-4xl font-bold mb-6\"",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "html"
+      ],
+      "related_bugs": [],
+      "occurrences": 1,
+      "last_seen": "2026-04-17T01:44:29.692Z"
+    },
+    {
+      "id": "bug-011",
+      "timestamp": "2026-04-17T01:44:40.189Z",
+      "error_message": "Significant refactor of ",
+      "file": "spas.html",
+      "root_cause": "10 lines replaced/restructured",
+      "fix": "Rewrote 17→17 lines (10 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "html"
+      ],
+      "related_bugs": [],
+      "occurrences": 1,
+      "last_seen": "2026-04-17T01:44:40.189Z"
+    },
+    {
+      "id": "bug-012",
+      "timestamp": "2026-04-17T01:44:44.559Z",
+      "error_message": "Wrong reference: 2025 should be 2026",
+      "file": "spas.html",
+      "root_cause": "Used \"2025\" instead of \"2026\"",
+      "fix": "Changed 2025 → 2026",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "html"
+      ],
+      "related_bugs": [],
+      "occurrences": 1,
+      "last_seen": "2026-04-17T01:44:44.559Z"
+    },
+    {
+      "id": "bug-013",
+      "timestamp": "2026-04-17T01:45:09.358Z",
+      "error_message": "Incorrect value in code",
+      "file": "maintenance.html",
+      "root_cause": "Had \"text-lg mb-8 font-medium\"",
+      "fix": "Changed to \"font-serif text-3xl md:text-4xl font-bold mb-6\"",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "html"
+      ],
+      "related_bugs": [],
+      "occurrences": 2,
+      "last_seen": "2026-04-17T01:45:13.635Z"
+    },
+    {
+      "id": "bug-014",
+      "timestamp": "2026-04-17T01:45:17.902Z",
+      "error_message": "Wrong reference: 2025 should be 2026",
+      "file": "maintenance.html",
+      "root_cause": "Used \"2025\" instead of \"2026\"",
+      "fix": "Changed 2025 → 2026",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "html"
+      ],
+      "related_bugs": [],
+      "occurrences": 1,
+      "last_seen": "2026-04-17T01:45:17.902Z"
+    },
+    {
+      "id": "bug-015",
+      "timestamp": "2026-04-17T01:45:46.233Z",
+      "error_message": "Wrong reference: $18 should be $35",
+      "file": "contact.html",
+      "root_cause": "Used \"$18\" instead of \"$35\"",
+      "fix": "Changed $18 → $35",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "html"
+      ],
+      "related_bugs": [],
+      "occurrences": 2,
+      "last_seen": "2026-04-17T01:46:02.182Z"
+    },
+    {
+      "id": "bug-016",
+      "timestamp": "2026-04-17T01:45:52.190Z",
+      "error_message": "Incorrect value in code",
+      "file": "contact.html",
+      "root_cause": "Had \"text-lg mb-8 font-medium\"",
+      "fix": "Changed to \"font-serif text-3xl md:text-4xl font-bold mb-6\"",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "html"
+      ],
+      "related_bugs": [],
+      "occurrences": 1,
+      "last_seen": "2026-04-17T01:45:52.190Z"
     }
   ]
 }

@@ -21,7 +21,13 @@
       "Bash(python3 \"C:\\\\Users\\\\Reela\\\\.claude\\\\skills\\\\ui-ux-pro-max\\\\scripts\\\\search.py\" \"hover states animation transitions cards buttons\" --domain ux)",
       "Bash(npx http-server *)",
       "Bash(python -m http.server 8000)",
-      "WebSearch"
+      "WebSearch",
+      "Bash(curl -O https://okcpools.com/images/pools/rectangle2.gif)",
+      "Bash(curl -O https://okcpools.com/images/pools/th_grecian.gif)",
+      "Bash(curl -O https://okcpools.com/images/pools/ovalp2.gif)",
+      "Bash(curl -O https://okcpools.com/images/pools/truelp2.gif)",
+      "Bash(curl -O https://okcpools.com/images/pools/truelp-grecian2.gif)",
+      "Bash(node .agents/skills/impeccable/scripts/cleanup-deprecated.mjs)"
     ]
   }
 }

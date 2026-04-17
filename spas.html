@@ -33,6 +33,7 @@
     h1, h2, h3, h4, h5, h6 { font-family: 'Merriweather', Georgia, serif; font-weight: 700; }
     .nav-link { transition: color 0.2s; }
     .nav-link:hover { color: #C49A5C; }
+    .nav-active { color: #C49A5C; text-decoration: underline; text-underline-offset: 4px; }
     .card { transition: all 0.3s ease; }
     .card:hover { transform: translateY(-4px); box-shadow: 0 20px 25px -5px rgba(10, 37, 64, 0.15); }
     .btn { transition: all 0.3s ease; cursor: pointer; font-weight: 600; }
@@ -60,11 +61,11 @@
       <div class="hidden md:flex gap-8 items-center">
         <a href="index.html" class="nav-link text-sm font-medium">Home</a>
         <a href="swimming-pools.html" class="nav-link text-sm font-medium">Swimming Pools</a>
-        <a href="spas.html" class="nav-link text-sm font-medium">Spas</a>
+        <a href="spas.html" class="nav-link nav-active text-sm font-semibold" aria-current="page">Spas</a>
         <a href="maintenance.html" class="nav-link text-sm font-medium">Maintenance</a>
         <a href="contact.html" class="bg-gold hover:bg-gold-light px-4 py-2 rounded text-sm font-semibold transition text-navy">Contact</a>
       </div>
-      <button id="hamburger" class="md:hidden flex flex-col gap-1 cursor-pointer">
+      <button id="hamburger" class="md:hidden flex flex-col gap-1 cursor-pointer" aria-label="Toggle navigation" aria-expanded="false">
         <div class="w-6 h-0.5 bg-white"></div>
         <div class="w-6 h-0.5 bg-white"></div>
         <div class="w-6 h-0.5 bg-white"></div>
@@ -238,21 +239,21 @@
           <div>
             <h3 class="font-serif font-bold text-lg text-navy mb-6">Health & Wellness</h3>
             <ul class="text-gray-700 text-sm space-y-2">
-              <li>• Hot water therapy relieves muscle tension</li>
-              <li>• Hydrotherapy aids in injury recovery</li>
-              <li>• Improves circulation and flexibility</li>
-              <li>• Reduces stress and promotes better sleep</li>
-              <li>• Low-impact exercise for all ages</li>
+              <li><i class="fas fa-check text-gold mr-2"></i>Hot water therapy relieves muscle tension</li>
+              <li><i class="fas fa-check text-gold mr-2"></i>Hydrotherapy aids in injury recovery</li>
+              <li><i class="fas fa-check text-gold mr-2"></i>Improves circulation and flexibility</li>
+              <li><i class="fas fa-check text-gold mr-2"></i>Reduces stress and promotes better sleep</li>
+              <li><i class="fas fa-check text-gold mr-2"></i>Low-impact exercise for all ages</li>
             </ul>
           </div>
           <div>
             <h3 class="font-serif font-bold text-lg text-navy mb-6">Lifestyle & Home Value</h3>
             <ul class="text-gray-700 text-sm space-y-2">
-              <li>• Year-round outdoor entertainment</li>
-              <li>• Perfect for family bonding & gatherings</li>
-              <li>• Increases property appeal & resale value</li>
-              <li>• Creates a personal wellness retreat</li>
-              <li>• Durable investment lasting 15+ years</li>
+              <li><i class="fas fa-check text-gold mr-2"></i>Year-round outdoor entertainment</li>
+              <li><i class="fas fa-check text-gold mr-2"></i>Perfect for family bonding &amp; gatherings</li>
+              <li><i class="fas fa-check text-gold mr-2"></i>Increases property appeal &amp; resale value</li>
+              <li><i class="fas fa-check text-gold mr-2"></i>Creates a personal wellness retreat</li>
+              <li><i class="fas fa-check text-gold mr-2"></i>Durable investment lasting 15+ years</li>
             </ul>
           </div>
         </div>
@@ -262,7 +263,7 @@
     <!-- CTA Section -->
     <section class="bg-navy text-white py-16 px-4">
       <div class="max-w-4xl mx-auto text-center">
-        <p class="text-lg mb-8 font-medium">Ready to add luxury to your backyard?</p>
+        <h2 class="font-serif text-3xl md:text-4xl font-bold mb-6">Ready to Add Luxury to Your Backyard?</h2>
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
           <a href="contact.html" class="btn bg-gold hover:bg-gold-light text-navy px-8 py-3 rounded font-semibold">Get a Free Consultation</a>
           <a href="tel:+14052268180" class="btn border-2 border-gold-light hover:bg-gold-light text-white px-8 py-3 rounded font-semibold">Call (405) 226-8180</a>
@@ -275,7 +276,7 @@
   <footer class="bg-navy text-white py-10 px-4">
     <div class="max-w-6xl mx-auto">
       <div class="grid md:grid-cols-3 gap-8 mb-6 text-center md:text-left">
-        <div class="text-sm text-opacity-70">© 2025 Atlantic Pools — Choctaw, OK</div>
+        <div class="text-sm text-opacity-70">© 2026 Atlantic Pools — Choctaw, OK</div>
         <div class="flex justify-center gap-6 text-sm font-medium">
           <a href="index.html" class="hover:text-gold">Home</a>
           <a href="swimming-pools.html" class="hover:text-gold">Pools</a>
@@ -296,7 +297,8 @@
     const hamburger = document.getElementById('hamburger');
     const menu = document.getElementById('mobile-menu');
     hamburger.addEventListener('click', () => {
-      menu.classList.toggle('hidden');
+      const open = menu.classList.toggle('hidden') === false;
+      hamburger.setAttribute('aria-expanded', open);
     });
   </script>
 

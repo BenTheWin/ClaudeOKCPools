@@ -33,6 +33,7 @@
     h1, h2, h3, h4, h5, h6 { font-family: 'Merriweather', Georgia, serif; font-weight: 700; }
     .nav-link { transition: color 0.2s; }
     .nav-link:hover { color: #C49A5C; }
+    .nav-active { color: #C49A5C; text-decoration: underline; text-underline-offset: 4px; }
     .service-card { transition: all 0.3s ease; cursor: pointer; }
     .service-card:hover { transform: translateY(-4px); box-shadow: 0 20px 25px -5px rgba(10, 37, 64, 0.15); }
     .btn { transition: all 0.3s ease; cursor: pointer; font-weight: 600; }
@@ -61,7 +62,7 @@
 
       <!-- Desktop Nav -->
       <div class="hidden md:flex gap-8 items-center">
-        <a href="index.html" class="nav-link text-sm font-medium">Home</a>
+        <a href="index.html" class="nav-link nav-active text-sm font-semibold" aria-current="page">Home</a>
         <a href="swimming-pools.html" class="nav-link text-sm font-medium">Swimming Pools</a>
         <a href="spas.html" class="nav-link text-sm font-medium">Spas</a>
         <a href="maintenance.html" class="nav-link text-sm font-medium">Maintenance</a>
@@ -69,7 +70,7 @@
       </div>
 
       <!-- Mobile Hamburger -->
-      <button id="hamburger" class="md:hidden flex flex-col gap-1 cursor-pointer">
+      <button id="hamburger" class="md:hidden flex flex-col gap-1 cursor-pointer" aria-label="Toggle navigation" aria-expanded="false">
         <div class="w-6 h-0.5 bg-white"></div>
         <div class="w-6 h-0.5 bg-white"></div>
         <div class="w-6 h-0.5 bg-white"></div>
@@ -99,7 +100,7 @@
       <div class="relative z-10 max-w-4xl mx-auto text-center">
         <p class="text-xs tracking-widest uppercase mb-6 text-opacity-75">Oklahoma City's Pool Experts — 30+ Years</p>
         <h1 class="font-serif text-5xl md:text-6xl font-bold mb-6 leading-tight">Build Your Dream Pool</h1>
-        <p class="text-gold-light text-2xl font-semibold mb-8">Starting at $30,500</p>
+        <p class="text-gold-light text-2xl font-semibold mb-8">Starting at $35,500</p>
         <p class="text-lg text-opacity-90 mb-10 max-w-2xl mx-auto">Custom gunite, fiberglass & vinyl pools. Serving OKC and 200 miles beyond.</p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
           <a href="contact.html" class="btn bg-gold hover:bg-gold-light text-navy px-8 py-3 rounded-lg font-semibold">Get a Free Quote</a>
@@ -214,7 +215,7 @@
   <footer class="bg-navy text-white py-10 px-4">
     <div class="max-w-6xl mx-auto">
       <div class="grid md:grid-cols-3 gap-8 mb-6 text-center md:text-left">
-        <div class="text-sm text-opacity-70">© 2025 Atlantic Pools — Choctaw, OK</div>
+        <div class="text-sm text-opacity-70">© 2026 Atlantic Pools — Choctaw, OK</div>
         <div class="flex justify-center gap-6 text-sm font-medium">
           <a href="index.html" class="hover:text-gold">Home</a>
           <a href="swimming-pools.html" class="hover:text-gold">Pools</a>
@@ -235,7 +236,8 @@
     const hamburger = document.getElementById('hamburger');
     const menu = document.getElementById('mobile-menu');
     hamburger.addEventListener('click', () => {
-      menu.classList.toggle('hidden');
+      const open = menu.classList.toggle('hidden') === false;
+      hamburger.setAttribute('aria-expanded', open);
     });
   </script>
 

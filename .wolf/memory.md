@@ -155,3 +155,47 @@
 | Time | Action | File(s) | Outcome | ~Tokens |
 |------|--------|---------|---------|--------|
 | 20:31 | Created swimming-pools.html | — | ~5717 |
+| 20:32 | Session end: 1 writes across 1 files (swimming-pools.html) | 3 reads | ~6126 tok |
+
+## Session: 2026-04-17 20:40
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 20:43 | Edited index.html | 2→3 lines | ~47 |
+| 20:43 | Edited index.html | inline fix | ~29 |
+| 20:43 | Edited index.html | inline fix | ~23 |
+| 20:43 | Edited index.html | inline fix | ~36 |
+| 20:43 | Edited index.html | inline fix | ~23 |
+| 20:43 | Edited index.html | 3→4 lines | ~46 |
+| 20:43 | Edited swimming-pools.html | 2→3 lines | ~47 |
+| 20:43 | Edited swimming-pools.html | 6→6 lines | ~154 |
+| 20:44 | Edited swimming-pools.html | "text-lg text-gold-light f" → "text-lg text-gold-light f" | ~58 |
+| 20:44 | Edited swimming-pools.html | inline fix | ~23 |
+| 20:44 | Edited swimming-pools.html | 3→4 lines | ~46 |
+| 20:44 | Edited spas.html | 2→3 lines | ~47 |
+| 20:44 | Edited spas.html | 5→5 lines | ~129 |
+| 20:44 | Edited spas.html | 3→3 lines | ~57 |
+| 20:44 | Edited spas.html | 17→17 lines | ~353 |
+| 20:44 | Edited spas.html | inline fix | ~23 |
+| 20:44 | Edited spas.html | 3→4 lines | ~46 |
+| 20:44 | Edited maintenance.html | 2→3 lines | ~47 |
+| 20:45 | Edited maintenance.html | 4→4 lines | ~110 |
+| 20:45 | Edited maintenance.html | 3→3 lines | ~56 |
+| 20:45 | Edited maintenance.html | "fas fa-check-circle text-" → "fas fa-check-circle text-" | ~14 |
+| 20:45 | Edited maintenance.html | inline fix | ~23 |
+| 20:45 | Edited maintenance.html | 3→4 lines | ~46 |
+| 20:45 | Edited contact.html | 2→3 lines | ~47 |
+| 20:45 | Edited contact.html | inline fix | ~36 |
+| 20:45 | Edited contact.html | 18 → 35 | ~44 |
+| 20:45 | Edited contact.html | 3→3 lines | ~54 |
+| 20:45 | Edited contact.html | 1→2 lines | ~105 |
+| 20:46 | Edited contact.html | inline fix | ~23 |
+| 20:46 | Edited contact.html | 3→4 lines | ~46 |
+
+| 20:46 | Polish pass on all 5 pages | index.html, swimming-pools.html, spas.html, maintenance.html, contact.html | success | ~3000 |
+| 20:46 | Session end: 30 writes across 5 files (index.html, swimming-pools.html, spas.html, maintenance.html, contact.html) | 8 reads | ~24640 tok |
+
+## Session: 2026-04-17 20:49
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|

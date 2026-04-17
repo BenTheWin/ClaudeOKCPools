@@ -33,6 +33,7 @@
     h1, h2, h3, h4, h5, h6 { font-family: 'Merriweather', Georgia, serif; font-weight: 700; }
     .nav-link { transition: color 0.2s; }
     .nav-link:hover { color: #C49A5C; }
+    .nav-active { color: #C49A5C; text-decoration: underline; text-underline-offset: 4px; }
     .card { transition: all 0.3s ease; }
     .card:hover { transform: translateY(-4px); box-shadow: 0 20px 25px -5px rgba(10, 37, 64, 0.15); }
     .btn { transition: all 0.3s ease; cursor: pointer; font-weight: 600; }
@@ -66,12 +67,12 @@
       </a>
       <div class="hidden md:flex gap-8 items-center">
         <a href="index.html" class="nav-link text-sm font-medium">Home</a>
-        <a href="swimming-pools.html" class="nav-link text-sm font-medium">Swimming Pools</a>
+        <a href="swimming-pools.html" class="nav-link nav-active text-sm font-semibold" aria-current="page">Swimming Pools</a>
         <a href="spas.html" class="nav-link text-sm font-medium">Spas</a>
         <a href="maintenance.html" class="nav-link text-sm font-medium">Maintenance</a>
         <a href="contact.html" class="bg-gold hover:bg-gold-light px-4 py-2 rounded text-sm font-semibold transition text-navy">Contact</a>
       </div>
-      <button id="hamburger" class="md:hidden flex flex-col gap-1 cursor-pointer">
+      <button id="hamburger" class="md:hidden flex flex-col gap-1 cursor-pointer" aria-label="Toggle navigation" aria-expanded="false">
         <div class="w-6 h-0.5 bg-white"></div>
         <div class="w-6 h-0.5 bg-white"></div>
         <div class="w-6 h-0.5 bg-white"></div>
@@ -92,7 +93,7 @@
     <section class="bg-gradient-to-br from-navy to-navy-light text-white py-20 px-4">
       <div class="max-w-4xl mx-auto text-center">
         <h1 class="font-serif text-5xl md:text-6xl font-bold mb-6">Beautiful Swimming Pools</h1>
-        <p class="text-lg text-gold-light font-medium max-w-3xl mx-auto">Whether your dream is to lounge poolside on a lazy Saturday afternoon, play a game of water volleyball with the kids, or entertain friends at a summer evening party, your dream pool is just a short time away.</p>
+        <p class="text-lg text-gold-light font-medium max-w-2xl mx-auto">Whether your dream is to lounge poolside, play with the kids, or entertain on a summer evening — your dream pool is closer than you think.</p>
       </div>
     </section>
 
@@ -378,7 +379,7 @@
   <footer class="bg-navy text-white py-10 px-4">
     <div class="max-w-6xl mx-auto">
       <div class="grid md:grid-cols-3 gap-8 mb-6 text-center md:text-left">
-        <div class="text-sm text-opacity-70">© 2025 Atlantic Pools — Choctaw, OK</div>
+        <div class="text-sm text-opacity-70">© 2026 Atlantic Pools — Choctaw, OK</div>
         <div class="flex justify-center gap-6 text-sm font-medium">
           <a href="index.html" class="hover:text-gold">Home</a>
           <a href="swimming-pools.html" class="hover:text-gold">Pools</a>
@@ -399,7 +400,8 @@
     const hamburger = document.getElementById('hamburger');
     const menu = document.getElementById('mobile-menu');
     hamburger.addEventListener('click', () => {
-      menu.classList.toggle('hidden');
+      const open = menu.classList.toggle('hidden') === false;
+      hamburger.setAttribute('aria-expanded', open);
     });
   </script>
 

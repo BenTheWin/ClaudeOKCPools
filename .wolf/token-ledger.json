@@ -2,14 +2,14 @@
   "version": 1,
   "created_at": "2026-04-16T22:52:08.743Z",
   "lifetime": {
-    "total_tokens_estimated": 116507,
-    "total_reads": 81,
-    "total_writes": 58,
-    "total_sessions": 11,
-    "anatomy_hits": 28,
-    "anatomy_misses": 52,
-    "repeated_reads_blocked": 19,
-    "estimated_savings_vs_bare_cli": 40220
+    "total_tokens_estimated": 170970,
+    "total_reads": 105,
+    "total_writes": 100,
+    "total_sessions": 14,
+    "anatomy_hits": 40,
+    "anatomy_misses": 64,
+    "repeated_reads_blocked": 29,
+    "estimated_savings_vs_bare_cli": 70797
   },
   "sessions": [
     {
@@ -1071,6 +1071,411 @@
         "writes_count": 0,
         "repeated_reads_blocked": 0,
         "anatomy_lookups": 2
+      }
+    },
+    {
+      "id": "session-2026-04-17-2001",
+      "started": "2026-04-17T01:01:21.282Z",
+      "ended": "2026-04-17T01:20:04.327Z",
+      "reads": [
+        {
+          "file": "c:/Code/ClaudeOKCPools/.impeccable.md",
+          "tokens_estimated": 725,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "c:/Code/ClaudeOKCPools/.wolf/designqc-captures/root_desktop_top.jpg",
+          "tokens_estimated": 0,
+          "was_repeated": true,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "c:/Code/ClaudeOKCPools/.wolf/designqc-captures/root_desktop_section2.jpg",
+          "tokens_estimated": 0,
+          "was_repeated": true,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "c:/Code/ClaudeOKCPools/.wolf/designqc-captures/root_desktop_bottom.jpg",
+          "tokens_estimated": 0,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "c:/Code/ClaudeOKCPools/.wolf/designqc-captures/root_mobile_top.jpg",
+          "tokens_estimated": 0,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "c:/Code/ClaudeOKCPools/.wolf/designqc-captures/root_mobile_section2.jpg",
+          "tokens_estimated": 0,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "c:/Code/ClaudeOKCPools/.wolf/designqc-captures/root_mobile_section3.jpg",
+          "tokens_estimated": 0,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "c:/Code/ClaudeOKCPools/.wolf/anatomy.md",
+          "tokens_estimated": 0,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "c:/Code/ClaudeOKCPools/index.html",
+          "tokens_estimated": 3666,
+          "was_repeated": true,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "c:/Code/ClaudeOKCPools/swimming-pools.html",
+          "tokens_estimated": 3984,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "c:/Code/ClaudeOKCPools/spas.html",
+          "tokens_estimated": 4251,
+          "was_repeated": true,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "c:/Code/ClaudeOKCPools/maintenance.html",
+          "tokens_estimated": 4079,
+          "was_repeated": true,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "c:/Code/ClaudeOKCPools/contact.html",
+          "tokens_estimated": 4132,
+          "was_repeated": true,
+          "anatomy_had_description": false
+        }
+      ],
+      "writes": [
+        {
+          "file": "c:/Code/ClaudeOKCPools/index.html",
+          "tokens_estimated": 227,
+          "action": "edit"
+        },
+        {
+          "file": "c:/Code/ClaudeOKCPools/index.html",
+          "tokens_estimated": 308,
+          "action": "edit"
+        },
+        {
+          "file": "c:/Code/ClaudeOKCPools/index.html",
+          "tokens_estimated": 300,
+          "action": "edit"
+        },
+        {
+          "file": "c:/Code/ClaudeOKCPools/index.html",
+          "tokens_estimated": 443,
+          "action": "edit"
+        },
+        {
+          "file": "c:/Code/ClaudeOKCPools/swimming-pools.html",
+          "tokens_estimated": 266,
+          "action": "edit"
+        },
+        {
+          "file": "c:/Code/ClaudeOKCPools/spas.html",
+          "tokens_estimated": 281,
+          "action": "edit"
+        },
+        {
+          "file": "c:/Code/ClaudeOKCPools/maintenance.html",
+          "tokens_estimated": 281,
+          "action": "edit"
+        },
+        {
+          "file": "c:/Code/ClaudeOKCPools/contact.html",
+          "tokens_estimated": 281,
+          "action": "edit"
+        },
+        {
+          "file": "c:/Code/ClaudeOKCPools/spas.html",
+          "tokens_estimated": 320,
+          "action": "edit"
+        },
+        {
+          "file": "c:/Code/ClaudeOKCPools/maintenance.html",
+          "tokens_estimated": 15,
+          "action": "edit"
+        },
+        {
+          "file": "c:/Code/ClaudeOKCPools/contact.html",
+          "tokens_estimated": 138,
+          "action": "edit"
+        }
+      ],
+      "totals": {
+        "input_tokens_estimated": 20837,
+        "output_tokens_estimated": 2860,
+        "reads_count": 13,
+        "writes_count": 11,
+        "repeated_reads_blocked": 9,
+        "anatomy_lookups": 6
+      }
+    },
+    {
+      "id": "session-2026-04-17-2022",
+      "started": "2026-04-17T01:22:40.738Z",
+      "ended": "2026-04-17T01:32:29.670Z",
+      "reads": [
+        {
+          "file": "c:/Code/ClaudeOKCPools/.wolf/anatomy.md",
+          "tokens_estimated": 0,
+          "was_repeated": true,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "c:/Code/ClaudeOKCPools/.wolf/cerebrum.md",
+          "tokens_estimated": 0,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "c:/Code/ClaudeOKCPools/.wolf/memory.md",
+          "tokens_estimated": 0,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        }
+      ],
+      "writes": [
+        {
+          "file": "c:/Code/ClaudeOKCPools/swimming-pools.html",
+          "tokens_estimated": 6126,
+          "action": "create"
+        }
+      ],
+      "totals": {
+        "input_tokens_estimated": 0,
+        "output_tokens_estimated": 6126,
+        "reads_count": 3,
+        "writes_count": 1,
+        "repeated_reads_blocked": 1,
+        "anatomy_lookups": 0
+      }
+    },
+    {
+      "id": "session-2026-04-17-2040",
+      "started": "2026-04-17T01:40:35.672Z",
+      "ended": "2026-04-17T01:46:26.016Z",
+      "reads": [
+        {
+          "file": "c:/Code/ClaudeOKCPools/.impeccable.md",
+          "tokens_estimated": 725,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "c:/Code/ClaudeOKCPools/.wolf/anatomy.md",
+          "tokens_estimated": 0,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "c:/Code/ClaudeOKCPools/index.html",
+          "tokens_estimated": 3632,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "c:/Code/ClaudeOKCPools/swimming-pools.html",
+          "tokens_estimated": 5800,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "c:/Code/ClaudeOKCPools/spas.html",
+          "tokens_estimated": 4292,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "c:/Code/ClaudeOKCPools/maintenance.html",
+          "tokens_estimated": 4079,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "c:/Code/ClaudeOKCPools/contact.html",
+          "tokens_estimated": 4145,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        },
+        {
+          "file": "c:/Code/ClaudeOKCPools/.wolf/memory.md",
+          "tokens_estimated": 0,
+          "was_repeated": false,
+          "anatomy_had_description": false
+        }
+      ],
+      "writes": [
+        {
+          "file": "c:/Code/ClaudeOKCPools/index.html",
+          "tokens_estimated": 50,
+          "action": "edit"
+        },
+        {
+          "file": "c:/Code/ClaudeOKCPools/index.html",
+          "tokens_estimated": 31,
+          "action": "edit"
+        },
+        {
+          "file": "c:/Code/ClaudeOKCPools/index.html",
+          "tokens_estimated": 25,
+          "action": "edit"
+        },
+        {
+          "file": "c:/Code/ClaudeOKCPools/index.html",
+          "tokens_estimated": 39,
+          "action": "edit"
+        },
+        {
+          "file": "c:/Code/ClaudeOKCPools/index.html",
+          "tokens_estimated": 25,
+          "action": "edit"
+        },
+        {
+          "file": "c:/Code/ClaudeOKCPools/index.html",
+          "tokens_estimated": 49,
+          "action": "edit"
+        },
+        {
+          "file": "c:/Code/ClaudeOKCPools/swimming-pools.html",
+          "tokens_estimated": 50,
+          "action": "edit"
+        },
+        {
+          "file": "c:/Code/ClaudeOKCPools/swimming-pools.html",
+          "tokens_estimated": 165,
+          "action": "edit"
+        },
+        {
+          "file": "c:/Code/ClaudeOKCPools/swimming-pools.html",
+          "tokens_estimated": 62,
+          "action": "edit"
+        },
+        {
+          "file": "c:/Code/ClaudeOKCPools/swimming-pools.html",
+          "tokens_estimated": 25,
+          "action": "edit"
+        },
+        {
+          "file": "c:/Code/ClaudeOKCPools/swimming-pools.html",
+          "tokens_estimated": 49,
+          "action": "edit"
+        },
+        {
+          "file": "c:/Code/ClaudeOKCPools/spas.html",
+          "tokens_estimated": 50,
+          "action": "edit"
+        },
+        {
+          "file": "c:/Code/ClaudeOKCPools/spas.html",
+          "tokens_estimated": 138,
+          "action": "edit"
+        },
+        {
+          "file": "c:/Code/ClaudeOKCPools/spas.html",
+          "tokens_estimated": 61,
+          "action": "edit"
+        },
+        {
+          "file": "c:/Code/ClaudeOKCPools/spas.html",
+          "tokens_estimated": 378,
+          "action": "edit"
+        },
+        {
+          "file": "c:/Code/ClaudeOKCPools/spas.html",
+          "tokens_estimated": 25,
+          "action": "edit"
+        },
+        {
+          "file": "c:/Code/ClaudeOKCPools/spas.html",
+          "tokens_estimated": 49,
+          "action": "edit"
+        },
+        {
+          "file": "c:/Code/ClaudeOKCPools/maintenance.html",
+          "tokens_estimated": 50,
+          "action": "edit"
+        },
+        {
+          "file": "c:/Code/ClaudeOKCPools/maintenance.html",
+          "tokens_estimated": 117,
+          "action": "edit"
+        },
+        {
+          "file": "c:/Code/ClaudeOKCPools/maintenance.html",
+          "tokens_estimated": 60,
+          "action": "edit"
+        },
+        {
+          "file": "c:/Code/ClaudeOKCPools/maintenance.html",
+          "tokens_estimated": 15,
+          "action": "edit"
+        },
+        {
+          "file": "c:/Code/ClaudeOKCPools/maintenance.html",
+          "tokens_estimated": 25,
+          "action": "edit"
+        },
+        {
+          "file": "c:/Code/ClaudeOKCPools/maintenance.html",
+          "tokens_estimated": 49,
+          "action": "edit"
+        },
+        {
+          "file": "c:/Code/ClaudeOKCPools/contact.html",
+          "tokens_estimated": 50,
+          "action": "edit"
+        },
+        {
+          "file": "c:/Code/ClaudeOKCPools/contact.html",
+          "tokens_estimated": 39,
+          "action": "edit"
+        },
+        {
+          "file": "c:/Code/ClaudeOKCPools/contact.html",
+          "tokens_estimated": 47,
+          "action": "edit"
+        },
+        {
+          "file": "c:/Code/ClaudeOKCPools/contact.html",
+          "tokens_estimated": 58,
+          "action": "edit"
+        },
+        {
+          "file": "c:/Code/ClaudeOKCPools/contact.html",
+          "tokens_estimated": 112,
+          "action": "edit"
+        },
+        {
+          "file": "c:/Code/ClaudeOKCPools/contact.html",
+          "tokens_estimated": 25,
+          "action": "edit"
+        },
+        {
+          "file": "c:/Code/ClaudeOKCPools/contact.html",
+          "tokens_estimated": 49,
+          "action": "edit"
+        }
+      ],
+      "totals": {
+        "input_tokens_estimated": 22673,
+        "output_tokens_estimated": 1967,
+        "reads_count": 8,
+        "writes_count": 30,
+        "repeated_reads_blocked": 0,
+        "anatomy_lookups": 6
       }
     }
   ],
