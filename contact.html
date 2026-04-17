@@ -12,8 +12,13 @@
           colors: {
             'navy': '#0a2540',
             'navy-light': '#0d3875',
-            'blue': '#1565c0',
-            'blue-light': '#64b5f6',
+            'gold': '#C49A5C',
+            'gold-light': '#DDB892',
+            'gold-dark': '#A67C52',
+          },
+          fontFamily: {
+            'serif': ['Merriweather', 'Georgia', 'serif'],
+            'sans': ['Work Sans', 'system-ui', 'sans-serif'],
           }
         }
       }
@@ -21,16 +26,17 @@
   </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <style>
-    body { font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
+    body { font-family: 'Work Sans', system-ui, sans-serif; color: #1a2332; line-height: 1.6; }
+    h1, h2, h3, h4, h5, h6 { font-family: 'Merriweather', Georgia, serif; font-weight: 700; }
     .nav-link { transition: color 0.2s; }
-    .nav-link:hover { color: #64b5f6; }
+    .nav-link:hover { color: #C49A5C; }
     input, textarea, select { font-family: inherit; }
     .card { transition: all 0.3s ease; }
     .card:hover { transform: translateY(-4px); box-shadow: 0 20px 25px -5px rgba(10, 37, 64, 0.15); }
-    .btn { transition: all 0.3s ease; cursor: pointer; }
+    .btn { transition: all 0.3s ease; cursor: pointer; font-weight: 600; }
     .btn:hover { transform: translateY(-2px); box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.2); }
     a { cursor: pointer; }
   </style>
@@ -40,13 +46,13 @@
   <!-- Navigation -->
   <nav class="sticky top-0 z-50 bg-navy text-white">
     <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
-      <a href="index.html" class="font-bold text-sm tracking-widest">ATLANTIC POOLS</a>
-      <div class="hidden md:flex gap-6 items-center">
-        <a href="index.html" class="nav-link text-sm">Home</a>
-        <a href="swimming-pools.html" class="nav-link text-sm">Swimming Pools</a>
-        <a href="spas.html" class="nav-link text-sm">Spas</a>
-        <a href="maintenance.html" class="nav-link text-sm">Maintenance</a>
-        <a href="contact.html" class="bg-blue hover:bg-blue-light px-4 py-2 rounded text-sm font-semibold transition">Contact</a>
+      <a href="index.html" class="font-serif text-sm tracking-widest font-bold">ATLANTIC POOLS</a>
+      <div class="hidden md:flex gap-8 items-center">
+        <a href="index.html" class="nav-link text-sm font-medium">Home</a>
+        <a href="swimming-pools.html" class="nav-link text-sm font-medium">Swimming Pools</a>
+        <a href="spas.html" class="nav-link text-sm font-medium">Spas</a>
+        <a href="maintenance.html" class="nav-link text-sm font-medium">Maintenance</a>
+        <a href="contact.html" class="bg-gold hover:bg-gold-light px-4 py-2 rounded text-sm font-semibold transition text-navy">Contact</a>
       </div>
       <button id="hamburger" class="md:hidden flex flex-col gap-1 cursor-pointer">
         <div class="w-6 h-0.5 bg-white"></div>
@@ -54,68 +60,68 @@
         <div class="w-6 h-0.5 bg-white"></div>
       </button>
     </div>
-    <div id="mobile-menu" class="hidden md:hidden bg-navy-light px-4 py-4 border-t border-blue-light border-opacity-20">
-      <a href="index.html" class="block py-2 text-sm hover:text-blue-light">Home</a>
-      <a href="swimming-pools.html" class="block py-2 text-sm hover:text-blue-light">Swimming Pools</a>
-      <a href="spas.html" class="block py-2 text-sm hover:text-blue-light">Spas</a>
-      <a href="maintenance.html" class="block py-2 text-sm hover:text-blue-light">Maintenance</a>
-      <a href="contact.html" class="block py-2 mt-2 bg-blue hover:bg-blue-light px-3 rounded text-sm font-semibold text-center">Contact</a>
+    <div id="mobile-menu" class="hidden md:hidden bg-navy-light px-4 py-4 border-t border-gold border-opacity-20">
+      <a href="index.html" class="block py-2 text-sm hover:text-gold font-medium">Home</a>
+      <a href="swimming-pools.html" class="block py-2 text-sm hover:text-gold font-medium">Swimming Pools</a>
+      <a href="spas.html" class="block py-2 text-sm hover:text-gold font-medium">Spas</a>
+      <a href="maintenance.html" class="block py-2 text-sm hover:text-gold font-medium">Maintenance</a>
+      <a href="contact.html" class="block py-2 mt-2 bg-gold hover:bg-gold-light px-3 rounded text-sm font-semibold text-center text-navy">Contact</a>
     </div>
   </nav>
 
   <!-- Main Content -->
   <main>
     <!-- Page Hero -->
-    <section class="bg-gradient-to-br from-navy to-navy-light text-white py-16 px-4">
+    <section class="bg-gradient-to-br from-navy to-navy-light text-white py-20 px-4">
       <div class="max-w-4xl mx-auto text-center">
-        <h1 class="text-4xl md:text-5xl font-bold mb-4">Get in Touch</h1>
-        <p class="text-lg text-blue-light">We're here to answer your pool & spa questions</p>
+        <h1 class="font-serif text-5xl md:text-6xl font-bold mb-4">Get in Touch</h1>
+        <p class="text-lg text-gold-light font-medium">We're here to answer your pool & spa questions</p>
       </div>
     </section>
 
     <!-- Contact Section -->
-    <section class="py-16 px-4 bg-white">
+    <section class="py-20 px-4 bg-white">
       <div class="max-w-5xl mx-auto">
-        <div class="grid md:grid-cols-2 gap-12">
+        <div class="grid md:grid-cols-2 gap-16">
           <!-- Left Column — Contact Info -->
           <div>
-            <h2 class="text-2xl font-bold text-navy mb-8">Contact Information</h2>
+            <h2 class="font-serif text-3xl font-bold text-navy mb-10">Contact Information</h2>
 
             <!-- Phone -->
-            <div class="mb-8">
-              <h3 class="font-bold text-navy mb-2">Phone & Text</h3>
-              <a href="tel:+14052268180" class="text-blue hover:text-blue-light font-bold transition text-lg">
+            <div class="mb-10">
+              <h3 class="font-serif font-bold text-navy mb-3 text-lg">Phone & Text</h3>
+              <a href="tel:+14052268180" class="text-gold hover:text-gold-dark font-bold transition text-xl">
                 (405) 226-8180
               </a>
-              <p class="text-gray-600 text-sm mt-1">Call or text Duane anytime</p>
+              <p class="text-gray-600 text-sm mt-2">Call or text Duane anytime</p>
             </div>
 
             <!-- Email -->
-            <div class="mb-8">
-              <h3 class="font-bold text-navy mb-2">Email</h3>
-              <a href="mailto:Sales@OKCpools.com" class="text-blue hover:text-blue-light font-bold transition">
+            <div class="mb-10">
+              <h3 class="font-serif font-bold text-navy mb-3 text-lg">Email</h3>
+              <a href="mailto:Sales@OKCpools.com" class="text-gold hover:text-gold-dark font-bold transition">
                 Sales@OKCpools.com
               </a>
-              <p class="text-gray-600 text-sm mt-1">Fast response — check within hours</p>
+              <p class="text-gray-600 text-sm mt-2">Fast response — check within hours</p>
             </div>
 
             <!-- Location -->
-            <div class="mb-8">
-              <h3 class="font-bold text-navy mb-2">Location</h3>
-              <p class="text-gray-700">Choctaw, Oklahoma</p>
-              <p class="text-gray-600 text-sm mt-1">Service area: OKC and within 200 miles</p>
+            <div class="mb-10">
+              <h3 class="font-serif font-bold text-navy mb-3 text-lg">Location</h3>
+              <p class="text-gray-700 font-medium">Choctaw, Oklahoma</p>
+              <p class="text-gray-600 text-sm mt-2">Service area: OKC and within 200 miles</p>
             </div>
 
             <!-- Service Area -->
-            <div class="mb-8">
-              <h3 class="font-bold text-navy mb-2">Service Area</h3>
-              <p class="text-gray-700">Oklahoma City and surrounding areas</p>
-              <p class="text-gray-600 text-sm mt-1">We travel up to 200 miles for installations</p>
+            <div class="mb-10">
+              <h3 class="font-serif font-bold text-navy mb-3 text-lg">Service Area</h3>
+              <p class="text-gray-700 font-medium">Oklahoma City and surrounding areas</p>
+              <p class="text-gray-600 text-sm mt-2">We travel up to 200 miles for installations</p>
             </div>
 
             <!-- BBB Accreditation -->
             <div class="bg-gray-50 border border-gray-200 rounded-lg p-6">
-              <p class="font-bold text-navy mb-2">✓ BBB Accredited</p>
+              <p class="font-serif font-bold text-navy mb-2">✓ BBB Accredited</p>
               <p class="text-sm text-gray-600">
                 Atlantic Pools is an accredited member of the Better Business Bureau, committed to customer satisfaction and ethical business practices.
               </p>
@@ -124,9 +130,9 @@
 
           <!-- Right Column — Contact Form -->
           <div>
-            <h2 class="text-2xl font-bold text-navy mb-8">Send us a Message</h2>
+            <h2 class="font-serif text-3xl font-bold text-navy mb-10">Send us a Message</h2>
 
-            <form action="https://formspree.io/f/xdkkyggp" method="POST" class="space-y-4">
+            <form action="https://formspree.io/f/xdkkyggp" method="POST" class="space-y-6">
               <!-- Name -->
               <div>
                 <label for="name" class="block text-sm font-semibold text-navy mb-2">Your Name *</label>
@@ -135,7 +141,7 @@
                   id="name"
                   name="name"
                   required
-                  class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue focus:border-transparent"
+                  class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-gold focus:border-transparent"
                   placeholder="John Doe"
                 >
               </div>
@@ -148,7 +154,7 @@
                   id="email"
                   name="email"
                   required
-                  class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue focus:border-transparent"
+                  class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-gold focus:border-transparent"
                   placeholder="john@example.com"
                 >
               </div>
@@ -160,7 +166,7 @@
                   type="tel"
                   id="phone"
                   name="phone"
-                  class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue focus:border-transparent"
+                  class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-gold focus:border-transparent"
                   placeholder="(405) 123-4567"
                 >
               </div>
@@ -172,7 +178,7 @@
                   id="subject"
                   name="subject"
                   required
-                  class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue focus:border-transparent"
+                  class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-gold focus:border-transparent"
                 >
                   <option value="">— Select a topic —</option>
                   <option value="Pool Quote">Pool Quote</option>
@@ -190,8 +196,8 @@
                   id="message"
                   name="message"
                   required
-                  rows="5"
-                  class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue focus:border-transparent"
+                  rows="6"
+                  class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-gold focus:border-transparent"
                   placeholder="Tell us about your project or question..."
                 ></textarea>
               </div>
@@ -199,12 +205,12 @@
               <!-- Submit Button -->
               <button
                 type="submit"
-                class="btn w-full bg-blue hover:bg-blue-light text-white font-bold py-3 rounded-lg"
+                class="btn w-full bg-gold hover:bg-gold-light text-navy font-bold py-3 rounded-lg"
               >
                 Send Message
               </button>
 
-              <p class="text-xs text-gray-500">We typically respond within 1 business day.</p>
+              <p class="text-xs text-gray-500 font-medium">We typically respond within 1 business day.</p>
             </form>
           </div>
         </div>
@@ -212,51 +218,51 @@
     </section>
 
     <!-- Response Time Banner -->
-    <section class="bg-blue-light bg-opacity-10 py-8 px-4 border-t border-blue-light">
+    <section class="bg-gold bg-opacity-10 py-10 px-4 border-t border-gold border-opacity-20">
       <div class="max-w-4xl mx-auto text-center">
-        <p class="text-gray-700">
-          <span class="font-bold text-navy">Fast Response Guaranteed.</span> We respond to all inquiries within 1 business day. Prefer to call? Text <span class="font-bold">(405) 226-8180</span> anytime.
+        <p class="text-gray-700 text-lg">
+          <span class="font-serif font-bold text-navy">Fast Response Guaranteed.</span> We respond to all inquiries within 1 business day. Prefer to call? Text <span class="font-bold">(405) 226-8180</span> anytime.
         </p>
       </div>
     </section>
 
     <!-- FAQ Preview -->
-    <section class="py-16 px-4 bg-white">
+    <section class="py-20 px-4 bg-white">
       <div class="max-w-4xl mx-auto">
-        <h2 class="text-2xl font-bold text-center text-navy mb-8">Common Questions</h2>
-        <div class="grid md:grid-cols-2 gap-8">
+        <h2 class="font-serif text-3xl font-bold text-center text-navy mb-12">Common Questions</h2>
+        <div class="grid md:grid-cols-2 gap-10">
           <div>
-            <h3 class="font-bold text-navy mb-2">How much does a pool cost?</h3>
+            <h3 class="font-serif font-bold text-navy mb-3 text-lg">How much does a pool cost?</h3>
             <p class="text-gray-600 text-sm">
               Pool pricing varies by type (gunite, fiberglass, vinyl) and size. Vinyl pools start at $18,500. We provide free quotes based on your specific needs.
             </p>
           </div>
           <div>
-            <h3 class="font-bold text-navy mb-2">How long does installation take?</h3>
+            <h3 class="font-serif font-bold text-navy mb-3 text-lg">How long does installation take?</h3>
             <p class="text-gray-600 text-sm">
               Vinyl & fiberglass: 3–6 weeks. Gunite: 6–8 weeks depending on complexity and weather. We'll give you a timeline with your quote.
             </p>
           </div>
           <div>
-            <h3 class="font-bold text-navy mb-2">Do you offer financing?</h3>
+            <h3 class="font-serif font-bold text-navy mb-3 text-lg">Do you offer financing?</h3>
             <p class="text-gray-600 text-sm">
               Yes! We work with several financing partners. Contact us for details on payment plans and interest rates.
             </p>
           </div>
           <div>
-            <h3 class="font-bold text-navy mb-2">What's your service area?</h3>
+            <h3 class="font-serif font-bold text-navy mb-3 text-lg">What's your service area?</h3>
             <p class="text-gray-600 text-sm">
               We serve Oklahoma City and surrounding areas, with travel available up to 200 miles. Contact us to confirm your location.
             </p>
           </div>
           <div>
-            <h3 class="font-bold text-navy mb-2">Do you provide maintenance?</h3>
+            <h3 class="font-serif font-bold text-navy mb-3 text-lg">Do you provide maintenance?</h3>
             <p class="text-gray-600 text-sm">
               Absolutely. We offer weekly, bi-weekly, and monthly maintenance plans. We also provide seasonal opening & closing services.
             </p>
           </div>
           <div>
-            <h3 class="font-bold text-navy mb-2">What warranty do you offer?</h3>
+            <h3 class="font-serif font-bold text-navy mb-3 text-lg">What warranty do you offer?</h3>
             <p class="text-gray-600 text-sm">
               1-year workmanship warranty included. Extended warranties available. Details provided with your quote.
             </p>
@@ -266,14 +272,14 @@
     </section>
 
     <!-- Final CTA -->
-    <section class="bg-navy text-white py-12 px-4">
+    <section class="bg-navy text-white py-16 px-4">
       <div class="max-w-4xl mx-auto text-center">
-        <p class="text-lg mb-6">Ready to start your pool or spa project?</p>
+        <p class="text-lg mb-8 font-medium">Ready to start your pool or spa project?</p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
-          <a href="tel:+14052268180" class="btn bg-blue hover:bg-blue-light text-white px-6 py-3 rounded font-bold">
+          <a href="tel:+14052268180" class="btn bg-gold hover:bg-gold-light text-navy px-8 py-3 rounded font-semibold">
             Text (405) 226-8180
           </a>
-          <a href="#" onclick="document.querySelector('form').scrollIntoView({behavior:'smooth'}); return false;" class="btn border-2 border-blue-light hover:bg-blue-light text-white px-6 py-3 rounded font-bold">
+          <a href="#" onclick="document.querySelector('form').scrollIntoView({behavior:'smooth'}); return false;" class="btn border-2 border-gold-light hover:bg-gold-light text-white px-8 py-3 rounded font-semibold">
             Fill Out Form Above
           </a>
         </div>
@@ -282,18 +288,18 @@
   </main>
 
   <!-- Footer -->
-  <footer class="bg-navy text-white py-8 px-4">
+  <footer class="bg-navy text-white py-10 px-4">
     <div class="max-w-6xl mx-auto">
       <div class="grid md:grid-cols-3 gap-8 mb-6 text-center md:text-left">
         <div class="text-sm text-opacity-70">© 2025 Atlantic Pools — Choctaw, OK</div>
-        <div class="flex justify-center gap-4 text-sm">
-          <a href="index.html" class="hover:text-blue-light">Home</a>
-          <a href="swimming-pools.html" class="hover:text-blue-light">Pools</a>
-          <a href="spas.html" class="hover:text-blue-light">Spas</a>
-          <a href="maintenance.html" class="hover:text-blue-light">Maintenance</a>
-          <a href="contact.html" class="hover:text-blue-light">Contact</a>
+        <div class="flex justify-center gap-6 text-sm font-medium">
+          <a href="index.html" class="hover:text-gold">Home</a>
+          <a href="swimming-pools.html" class="hover:text-gold">Pools</a>
+          <a href="spas.html" class="hover:text-gold">Spas</a>
+          <a href="maintenance.html" class="hover:text-gold">Maintenance</a>
+          <a href="contact.html" class="hover:text-gold">Contact</a>
         </div>
-        <div class="text-sm text-blue-light text-center md:text-right">(405) 226-8180</div>
+        <div class="text-sm text-gold font-medium text-center md:text-right">(405) 226-8180</div>
       </div>
       <div class="border-t border-opacity-20 pt-4 text-center text-sm text-opacity-60">
         Sales@OKCpools.com

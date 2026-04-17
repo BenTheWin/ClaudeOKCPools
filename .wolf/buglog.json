@@ -16,6 +16,22 @@
       "related_bugs": [],
       "occurrences": 1,
       "last_seen": "2026-04-16T23:58:35.373Z"
+    },
+    {
+      "id": "bug-002",
+      "timestamp": "2026-04-17T00:17:04.865Z",
+      "error_message": "Incorrect value in code",
+      "file": "index.html",
+      "root_cause": "Had \"btn bg-blue hover:bg-blue-light text-white px-6 p",
+      "fix": "Changed to \"btn bg-gold hover:bg-gold-light text-white px-6 p",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "html"
+      ],
+      "related_bugs": [],
+      "occurrences": 1,
+      "last_seen": "2026-04-17T00:17:04.865Z"
     }
   ]
 }
